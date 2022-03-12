@@ -4,6 +4,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Market',
+            collapsed: false,
             items: [
                 'market/intro',
                 'market/zestynft',
@@ -15,6 +16,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Governance',
+            collapsed: false,
             items: [
                 'governance/zestytoken',
                 'governance/tokenvesting',

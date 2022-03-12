@@ -6,6 +6,7 @@ module.exports = {
         {
             type: 'category',
             label: 'Virtual Space Owners',
+            collapsed: false,
             items: [
                 'for-creators/create-space',
                 {

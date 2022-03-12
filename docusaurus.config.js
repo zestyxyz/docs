@@ -80,7 +80,7 @@ const config = {
           },
           {
             to: 'smart-contracts/overview',
-            label: 'Contributing'
+            label: 'Smart Contracts'
           },
         ],
       },

@@ -1,4 +1,4 @@
-## 3. Create auction
+# Create auction
 
 From the [Space](https://app.zesty.market/spaces) page, select the Space you want to create an auction with.
 

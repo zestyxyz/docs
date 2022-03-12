@@ -1,4 +1,4 @@
-## 1. Creating a Space
+# Create a Space
 
 ### **Connect your wallet**
 

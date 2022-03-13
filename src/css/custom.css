@@ -26,3 +26,14 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+html[data-theme='dark']{
+  background-image: radial-gradient(
+    30% 30% at 50% 50%,
+    #a56f3f17 0%,
+    rgba(33, 36, 41, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}

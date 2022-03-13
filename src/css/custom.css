@@ -51,7 +51,7 @@ html[data-theme='light']{
 .aa-DetachedSearchButton {
   background-color: #ffffff17 !important;
   border: 1px solid #000000 !important;
-  color:white !important;
+  color: grey !important;
   width: 200px !important;
   height: 28px !important;
   box-sizing: border-box !important;
@@ -60,6 +60,5 @@ html[data-theme='light']{
 }
 
 .aa-SubmitIcon {
-  fill: white !important;
+  fill: grey !important;
 }
-

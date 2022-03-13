@@ -1,4 +1,4 @@
-# babylon.js
+# three.js
 
 Repository: [https://github.com/zestymarket/sdk/tree/main/threejs](https://github.com/zestymarket/sdk/tree/main/threejs)
 

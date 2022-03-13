@@ -40,7 +40,7 @@ html[data-theme='dark']{
 html[data-theme='light']{
   background-image: radial-gradient(
     30% 30% at 5% 25%,
-    #ff770021 0%,
+    #ff77003f 0%,
     rgba(33, 36, 41, 0) 100%
   );
   background-repeat: no-repeat;

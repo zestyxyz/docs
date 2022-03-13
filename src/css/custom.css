@@ -30,7 +30,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 html[data-theme='dark']{
   background-image: radial-gradient(
     30% 30% at 5% 25%,
-    #a56f3f17 0%,
+    #a56f3f21 0%,
     rgba(33, 36, 41, 0) 100%
   );
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ html[data-theme='dark']{
 html[data-theme='light']{
   background-image: radial-gradient(
     30% 30% at 5% 25%,
-    #ff77003f 0%,
+    #ff770052 0%,
     rgba(33, 36, 41, 0) 100%
   );
   background-repeat: no-repeat;

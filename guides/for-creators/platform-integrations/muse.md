@@ -1,12 +1,9 @@
 # Muse
 
-## Before You Integrate
+:::note
+You will first need to create a Space NFT in order to get started checkout [For Creators](../create-space.md) for more instructions.
+:::
 
-You will first need to create a Space NFT in order to get started. Check out "For Creators" for more instructions.
-
-{% content-ref url="../create-space.md" %}
-[create-space.md](../create-space.md)
-{% endcontent-ref %}
 
 ## Instructions
 

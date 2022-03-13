@@ -2,13 +2,9 @@
 
 Repository: [https://github.com/zestymarket/sdk/tree/main/unity](https://github.com/zestymarket/sdk/tree/main/unity)
 
-## Before You Integrate
-
-You will first need to create a Space NFT in order to get started checkout "For Creators" for more instructions.
-
-{% content-ref url="../create-space.md" %}
-[.](./)
-{% endcontent-ref %}
+:::note
+You will first need to create a Space NFT in order to get started checkout [For Creators](../create-space.md) for more instructions.
+:::
 
 ## Instructions
 

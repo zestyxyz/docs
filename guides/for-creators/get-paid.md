@@ -4,4 +4,4 @@ After the slot has been purchased and there is sufficient proof that you had sho
 
 Please refer to the video below for the step-by-step guide on how to collect your funds once the advertisement service has been completed
 
-{% embed url="https://www.youtube.com/watch?v=UKwtTbvmlL4" %}
+<iframe width="760" height= '432' src="https://www.youtube.com/embed/UKwtTbvmlL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

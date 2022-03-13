@@ -50,9 +50,9 @@ Ensure that your campaign image format matches the Zesty space's banner format. 
 | Square | 500        | 500         |
 | Twitch | 550        | 200         |
 
-{% hint style="info" %}
+:::tip
 Twitch campaigns also support animated .gifs. Make sure the dimensions are set to`550x200.`
-{% endhint %}
+:::
 
 ![](<../.gitbook/assets/image (14).png>)
 
@@ -68,7 +68,7 @@ Now that you have your Campaign set-up, you're ready to start bidding on the tim
 
 ### **Watch our video to see the entire process:** <a href="#watch-our-video-to-see-the-entire-process" id="watch-our-video-to-see-the-entire-process"></a>
 
-{% embed url="https://www.youtube.com/watch?v=v6K6J44WsGI" %}
+<iframe width="760" height= '432' src="https://www.youtube.com/embed/v6K6J44WsGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 2. Bid on timeslot
 
@@ -104,7 +104,7 @@ You may also check on your Campaign's page to see your active bids.
 
 ### **Watch our video to see the entire process:** <a href="#watch-our-video-to-see-the-entire-process" id="watch-our-video-to-see-the-entire-process"></a>
 
-{% embed url="https://www.youtube.com/watch?v=lEM9-r4PiRQ" %}
+<iframe width="760" height= '432' src="https://www.youtube.com/embed/lEM9-r4PiRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## **3.**Refunds
 

@@ -30,9 +30,9 @@ Once completed you'll see the MetaMask welcome page. Click on Getting Started.
 
 ![](../.gitbook/assets/MM\_03\_GetStarted.png)
 
-{% hint style="info" %}
-Tip: Pin the extension so you can have a quick access to your wallet.
-{% endhint %}
+:::tip
+Pin the extension so you can have a quick access to your wallet.*
+:::
 
 You'll see the option of "Import wallet" or "Create a Wallet". If you already have a wallet you want to use, go ahead to "Import Wallet". That will prompt you to fill in Secret Recovery Phrase and new password.
 
@@ -42,11 +42,14 @@ If you do not have an Ethereum wallet yet, you may click on "Create a Wallet".
 
 Create a password when prompted. Read and watch the video on how you can secure your wallet. Once done, click Next.
 
-{% hint style="info" %}
-Your recovery phrase is the “master key” to your wallet and funds.\
-**NEVER share your recovery phrase** with anyone, not even with MetaMask!\
-Do not keep the phrase in digital format.
-{% endhint %}
+:::tip
+
+Your recovery phrase is the “master key” to your wallet and funds.
+
+**NEVER share your recovery phrase** with anyone, not even with MetaMask!
+
+*Do not keep the phrase in digital format.
+:::
 
 You'll see your Secret Recovery Phrase here. Write down the Secret Recovery Phrase. Keep it offline, do not screenshot, or save the phrase in your computer or on the cloud.
 
@@ -72,7 +75,8 @@ Fill in below information:
 * **New RPC URL**: `https://rpc-mainnet.maticvigil.com/`
 * **Chain ID**: `137`
 * **Currency Symbol (optional)**: `MATIC`
-*    ****
+*
+    ****
 
     **Block Explorer URL (optional)**: `https://polygonscan.com/`
 
@@ -84,7 +88,7 @@ You may switch to other networks at anytime by clicking on the network name on t
 
 ### **Watch our video to see the entire process** <a href="#watch-our-video-to-see-the-entire-process" id="watch-our-video-to-see-the-entire-process"></a>
 
-{% embed url="https://www.youtube.com/watch?v=m5WyNgrKbPM" %}
+<iframe width="760" height= '432' src="https://www.youtube.com/embed/m5WyNgrKbPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### **Getting Matic from Matic Faucet**
 
@@ -119,11 +123,11 @@ First you'll need to load up your wallet with ETH. You can do so by buying ETH o
 
 Once you have the ETH in your MetaMask wallet, you'll need to send the ETH from Ethereum mainnet to Polygon Network via [Matic Bridge](https://wallet.matic.network/bridge/).
 
-{% hint style="info" %}
+:::tip
 The transaction could take a while, depending on how much gwei (gas fee) you allocated for your transaction. The higher you allocated, the faster the transaction will be.
 
 Please while transactions get confirmed. The project will look into fast and reliable chains in the near future.
-{% endhint %}
+:::
 
 ### Swapping ETH for USDC
 
@@ -145,9 +149,9 @@ MetaMask pop-up window will appear, to confirm your transaction, click on **Conf
 
 You'll also be given an option to add USDC token to your MetaMask, click **Confirm**. This will allow you to see how much USDC you have in your wallet.
 
-{% hint style="info" %}
+:::tip
 This will confirm your transaction and it might take a while for your transaction to complete
-{% endhint %}
+:::
 
 Once the transaction is done, you'll see a small pop-up on your screen. You can also check your USDC balance on your MetaMask wallet.&#x20;
 

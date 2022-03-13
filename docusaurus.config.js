@@ -1,3 +1,4 @@
+
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -58,9 +59,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars/contracts-sidebar.js'),
       },
     ],
-  ],
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        indexBlog: false,
+      },
+    ],
+    ],
 
-  themeConfig:
+  themeConfig: 
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
@@ -116,7 +123,6 @@ const config = {
           lightIcon: '☀️',
         },
       },
-      
       
       prism: {
         theme: lightCodeTheme,

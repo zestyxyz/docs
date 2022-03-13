@@ -37,3 +37,14 @@ html[data-theme='dark']{
   background-attachment: fixed;
 
 }
+
+html[data-theme='light']{
+  background-image: radial-gradient(
+    30% 30% at 50% 50%,
+    #ff770017 0%,
+    rgba(33, 36, 41, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}

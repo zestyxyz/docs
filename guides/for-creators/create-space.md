@@ -14,7 +14,7 @@ If Polygon (or Matic) is not in your Network list, you will either need to [manu
 
 **Watch our video to see the entire process:** <a href="#watch-our-video-to-see-the-entire-process" id="watch-our-video-to-see-the-entire-process"></a>
 
-<iframe width="760" height= '432' src="https://www.youtube.com/watch?v=bDrM0MDB_8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="760" height="432" src="https://www.youtube.com/embed/bDrM0MDB_8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once you're connected, click on **Spaces** to create your campaign.
 

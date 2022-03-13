@@ -9,13 +9,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Zesty Market',
   tagline: 'Resources and Documentation',
-  url: 'https://substrata-docs.vercel.app/',
+  url: 'https://zesty-docusaurus.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/zesty.png',
-  organizationName: 'substrata', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Zesty Market', // Usually your GitHub org/user name.
+  projectName: 'zesty-docusaurus', // Usually your repo name.
 
   
   presets: [

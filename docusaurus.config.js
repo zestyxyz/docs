@@ -91,7 +91,7 @@ const config = {
             label: 'About'
           },
           {
-            to: '/guides/faq',
+            to: '/guides/for-creators/create-space',
             label: 'Guides'
           },
           {

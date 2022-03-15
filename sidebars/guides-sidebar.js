@@ -34,8 +34,15 @@ module.exports = {
             ]
         },
         'advertisers',
-
         'faq',
         'metamask',
+        {
+            type: 'category',
+            label: 'Extras',
+            collapsed: false,
+            items: [
+                'extras/dice'
+            ]
+        }
     ],
   };

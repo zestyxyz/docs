@@ -34,7 +34,11 @@ In your page's `<body>`, copy and paste:
 <zesty-web space="0" creator="0x0000000000000000000000000000000000000000" width="100px"></zesty-web>
 ```
 
-If you wish to opt into enabling a beacon on your space, copy and paste:
+replace `space= ` with your Space ID and `creator= ` with your wallet address.
+
+You can also pass the argument `beacon="true"` if you would like to opt into Zesty Analytics. Anyone will be able to view this on your Space's page, where it will display a history of visits to your space and clicks on your banner.
+
+Adding a banner to the previous example would look like this:
 
 ```
 <zesty-web space="0" creator="0x0000000000000000000000000000000000000000" width="100px" beacon="true"></zesty-web>

@@ -15,9 +15,7 @@ You will first need to create a Space NFT in order to get started checkout [For 
 
 **Video Tutorial**
 
-{% embed url="https://www.youtube.com/watch?v=6sn8blLfoiI" %}
-Video tutorial on how to use Zesty Banners in Decentraland's builder
-{% endembed %}
+<iframe width="760" height="432" src="https://www.youtube.com/embed/6sn8blLfoiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Step 1**
 

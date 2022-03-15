@@ -19,7 +19,7 @@ module.exports = {
                 },
                 {
                     type: 'category',
-                    label: 'WebXR Integration',
+                    label: 'WebXR Integrations',
                     items: [
                         'for-creators/webxr-integrations/a-frame',
                         'for-creators/webxr-integrations/babylonjs',

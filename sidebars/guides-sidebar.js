@@ -1,6 +1,6 @@
 module.exports = {
     mySidebar: [
-        'welcome',
+        'faq',
         'metamask',
         'advertisers',
         {

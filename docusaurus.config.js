@@ -60,6 +60,15 @@ const config = {
       },
     ],
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        path: './about/',
+        routeBasePath: 'about/',
+        sidebarPath: require.resolve('./sidebars/about-sidebar.js'),
+      },
+    ],
+    [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         indexBlog: false,
@@ -78,7 +87,11 @@ const config = {
         },
         items: [
           {
-            to: '/guides/welcome',
+            to: 'about/welcome',
+            label: 'About'
+          },
+          {
+            to: '/guides/faq',
             label: 'Guides'
           },
           {

@@ -6,6 +6,7 @@ module.exports = {
             collapsed: false,
             items: [
                 'for-creators/create-space',
+                'for-creators/web',
                 {
                     type: 'category',
                     label: 'Platform Integrations',

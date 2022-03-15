@@ -1,8 +1,5 @@
 module.exports = {
     mySidebar: [
-        'faq',
-        'metamask',
-        'advertisers',
         {
             type: 'category',
             label: 'Virtual Space Owners',
@@ -35,6 +32,10 @@ module.exports = {
                 'for-creators/get-paid',
 
             ]
-        }
+        },
+        'advertisers',
+
+        'faq',
+        'metamask',
     ],
   };

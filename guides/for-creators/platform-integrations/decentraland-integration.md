@@ -15,7 +15,7 @@ You will first need to create a Space NFT in order to get started checkout [For 
 
 **Video Tutorial**
 
-<iframe width="760" height="432" src="https://www.youtube.com/embed/6sn8blLfoiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="100%" height="432" src="https://www.youtube.com/embed/6sn8blLfoiI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 **Step 1**
 

@@ -12,8 +12,8 @@ Banner spaces are represented as NFTs - ownership of the NFT gives the renter th
 
 ## Advertise
 
-Learn how to rent banner spaces to promote your business or brand [here](./advertisers.md).
+Learn how to rent banner spaces to promote your business or brand [here](../guides/advertisers.md).
 
 ## Space Owners and Builders
 
-Start earning yield on your land in the metaverse by clicking [here](./for-creators/create-space.md).
+Start earning yield on your land in the metaverse by clicking [here](../guides/for-creators/create-space.md).

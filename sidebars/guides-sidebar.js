@@ -1,8 +1,5 @@
 module.exports = {
     mySidebar: [
-        'welcome',
-        'metamask',
-        'advertisers',
         {
             type: 'category',
             label: 'Virtual Space Owners',
@@ -11,29 +8,48 @@ module.exports = {
                 'for-creators/create-space',
                 {
                     type: 'category',
-                    label: 'Platform Integrations',
+                    label: 'Install your banner',
+                    collapsed: false,
                     items: [
-                        'for-creators/platform-integrations/unity-integration',
-                        'for-creators/platform-integrations/cryptovoxels-integration',
-                        'for-creators/platform-integrations/decentraland-integration',
-                        'for-creators/platform-integrations/muse',
-
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'WebXR Integration',
-                    items: [
-                        'for-creators/webxr-integrations/a-frame',
-                        'for-creators/webxr-integrations/babylonjs',
-                        'for-creators/webxr-integrations/r3f',
-                        'for-creators/webxr-integrations/threejs',
-                        'for-creators/webxr-integrations/wonderland',
+                        'for-creators/integrate/web',
+                        {
+                            type: 'category',
+                            label: 'Platform Integrations',
+                            items: [
+                                'for-creators/integrate/platform-integrations/unity-integration',
+                                'for-creators/integrate/platform-integrations/cryptovoxels-integration',
+                                'for-creators/integrate/platform-integrations/decentraland-integration',
+                                'for-creators/integrate/platform-integrations/muse',
+        
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'WebXR Integrations',
+                            items: [
+                                'for-creators/integrate/webxr-integrations/a-frame',
+                                'for-creators/integrate/webxr-integrations/babylonjs',
+                                'for-creators/integrate/webxr-integrations/r3f',
+                                'for-creators/integrate/webxr-integrations/threejs',
+                                'for-creators/integrate/webxr-integrations/wonderland',
+                            ]
+                        },
                     ]
                 },
                 'for-creators/create-auction',
                 'for-creators/get-paid',
 
+            ]
+        },
+        'advertisers',
+        'faq',
+        'metamask',
+        {
+            type: 'category',
+            label: 'Extras',
+            collapsed: false,
+            items: [
+                'extras/dice'
             ]
         }
     ],

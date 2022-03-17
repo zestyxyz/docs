@@ -1,9 +1,13 @@
 # Create a Campaign
 
 Campaigns are your gateway to exposure in the metaverse. Here's what you'll need to do:
-1. [Connect to the Blockchain](#connect-to-the-blockchain)
-2. [Setup your Campaign](#create-a-campaign)
-3. [Mint an NFT that represents your Campaign](#confirm-your-campaign-on-the-blockchain)
+- [Create a Campaign](#create-a-campaign)
+  - [1. Connect to the Blockchain](#1-connect-to-the-blockchain)
+  - [2. Create Campaign](#2-create-campaign)
+    - [Attributes](#attributes)
+  - [3. Confirm your Campaign on the blockchain](#3-confirm-your-campaign-on-the-blockchain)
+
+<center><div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="70%" height="432" src="https://www.youtube.com/embed/v6K6J44WsGI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
 
 ## 1. Connect to the Blockchain
 
@@ -20,7 +24,7 @@ You'll need to connect to the blockchain to get market data and mint your Campai
 Check out our [Metamask Guide](../metamask)
 :::
 
-## 2. Create a Campaign
+## 2. Create Campaign
 
 On your campaigns page, click on **Create Campaign** button on the top right of the screen.
 
@@ -30,11 +34,12 @@ On your campaigns page, click on **Create Campaign** button on the top right of 
 Zesty currently accepts **JPG and PNG** under 2mb
 :::
 
-### Campaign Attributes
+### Attributes
 
 >* **Format**
     * **Square, Tall, Wide** or **Twitch**
     * If you want to be compatible with every space, make all four!
+    * **Make sure** your format matches one of the Zesty Banner formats
 * **Image To Be Shown**
     * Your image, which is compatible with your format selection
 * **Campaign Name**
@@ -48,7 +53,6 @@ Zesty currently accepts **JPG and PNG** under 2mb
 
 <details open="true">
 <summary>Image Formats</summary>
-Ensure that your campaign image format matches the Zesty space's banner format. Below are the dimensions of the supported assets (width x height):
 
 | Format | Width (px) | Height (px) |
 | ------ | ---------- | ----------- |
@@ -60,16 +64,16 @@ Ensure that your campaign image format matches the Zesty space's banner format. 
 
 ## 3. Confirm your Campaign on the blockchain
 
-Once you've done and clicked the **Create** button, a MetaMask window will pop-up. You can click on **Confirm** to proceed. The gas fee will be in Matic and the transaction might take a while.
+After clicking the **Create** button, a MetaMask window will pop-up. Click on **Confirm** to proceed. 
+
+:::caution Having trouble?
+Sometimes the network can be slow. It might help to refresh and try again.
+
+Reach out to us on [Discord](https://discord.gg/4Jc3XhM5mp) if you need technical support!
+:::
 
 ![](<../../.gitbook/assets/image (17).png>)
 
-You'll received a MetaMask pop-up notification when the transaction is done. The other way to check is to go to your Campaigns page and you'll see the campaign you've created listed on the page.
+After your transaction is mined, you can find your Campaign on the [Campaign page](https://app.zesty.market/campaigns).
 
-![](<../../.gitbook/assets/image (20).png>)
-
-Now that you have your Campaign set-up, you're ready to start bidding on the timeslot of the creator of your choice.
-
-### **Watch our video to see the entire process:** <a href="#watch-our-video-to-see-the-entire-process" id="watch-our-video-to-see-the-entire-process"></a>
-
-<div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="100%" height="432" src="https://www.youtube.com/embed/v6K6J44WsGI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+Now, you're ready to start [bidding for timeslots](./bid.md) on the Zesty Marketplace.

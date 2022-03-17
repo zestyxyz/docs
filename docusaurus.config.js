@@ -135,9 +135,6 @@ const config = {
       },
 
       zoomSelector: '.markdown :not(em) > img',
-      zoomOptions: {
-        background: '#000',
-        },
 
       prism: {
         theme: lightCodeTheme,

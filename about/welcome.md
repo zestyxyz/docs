@@ -12,7 +12,7 @@ Banner spaces are represented as NFTs - ownership of the NFT gives the renter th
 
 ## Advertise
 
-Learn how to rent banner spaces to promote your business or brand [here](../guides/advertisers).
+Learn how to rent banner spaces to promote your business or brand [here](../guides/for-advertisers/bid).
 
 ## Space Owners and Builders
 

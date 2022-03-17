@@ -1,4 +1,4 @@
-# Bid on timeslot
+# Bid on Timeslots
 
 First you'll need to go to the **Market** page. On the page, you'll be able to see all the spaces that have been created by the creators, ready for you to bid on. **Choose** the space you desire, for the purpose of this guide, we'll choose Zesty Ad Demo space.
 

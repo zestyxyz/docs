@@ -130,11 +130,7 @@ const config = {
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
-        respectPrefersColorScheme: true,
-        switchConfig: {
-          darkIcon: '🌙',
-          lightIcon: '☀️',
-        },
+        respectPrefersColorScheme: true
       },
       
       prism: {

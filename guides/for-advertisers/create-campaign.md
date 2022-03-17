@@ -1,6 +1,6 @@
 # Create a Campaign
 
-Campaigns are your gateway to exposure in the metaverse. Here's what you'll need to do:
+Campaigns are your gateway to brand exposure in the metaverse. Setting one up is easy, here's what you'll need to do:
 - [Create a Campaign](#create-a-campaign)
   - [1. Connect to the Blockchain](#1-connect-to-the-blockchain)
   - [2. Create Campaign](#2-create-campaign)
@@ -20,7 +20,7 @@ You'll need to connect to the blockchain to get market data and mint your Campai
 
 ![](<../../.gitbook/assets/image (11).png>)
 
-:::tip dont have a wallet?
+:::tip don't have a wallet?
 Check out our [Metamask Guide](../metamask)
 :::
 

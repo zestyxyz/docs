@@ -18,7 +18,7 @@ When connected to the blockchain, you can find all active an inactive listings i
 
 Choose the space you desire. For the purpose of this guide, we'll use Zesty Ad Demo space.
 
-:::tip
+:::tip filter results
 You can filter by criteria such as **Format**, **Active Listings** or **Lowest Price**
 :::
 
@@ -44,15 +44,13 @@ This will only work if your campaign matches the Space owner's chosen [format](.
 <center><img src="https://i.imgur.com/BXkPYfz.jpg"/></center>
 
 
-:::tip
+:::tip due diligence
 Before you buy, check out the Space's **Analytics** tab. It will show a history of their *clicks* and *visits* 
 :::
 
 ## 3. Submit your purchase
 
 Purchasing your first timeslot will require both an **approval** and **submission**.
-
-<center><img src="https://i.imgur.com/G6ovG7L.jpg" /></center>
 
 On both actions, you'll be greeted with MetaMask pop-ups. Both will require a small amount of gas fees. Click on confirm on both occasions.
 
@@ -73,5 +71,5 @@ Watch your approval status in the Space's **Auctions** tab. If they accept, your
 <center><img width="80%" height="80%" src="https://i.imgur.com/oVzW5WG.jpg" /></center>
 
 :::tip
-You may also check on your [Campaign](https://app.zesty.market/campaigns) page to see your active bids.
+You may also check on your [Campaign](https://app.zesty.market/campaigns) page to monitor your active bids.
 :::

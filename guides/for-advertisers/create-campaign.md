@@ -7,7 +7,7 @@ Campaigns are your gateway to exposure in the metaverse. Here's what you'll need
     - [Attributes](#attributes)
   - [3. Confirm your Campaign on the blockchain](#3-confirm-your-campaign-on-the-blockchain)
 
-<center><div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="70%" height="432" src="https://www.youtube.com/embed/v6K6J44WsGI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
+<center><div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="90%" height="432" src="https://www.youtube.com/embed/v6K6J44WsGI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
 
 ## 1. Connect to the Blockchain
 

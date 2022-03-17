@@ -72,9 +72,10 @@ const config = {
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         indexBlog: false,
-      },
+        },
+      ],
+      'plugin-image-zoom'
     ],
-  ],
 
   themeConfig: 
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -132,7 +133,12 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true
       },
-      
+
+      zoomSelector: '.markdown :not(em) > img',
+      zoomOptions: {
+        background: '#000',
+        },
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

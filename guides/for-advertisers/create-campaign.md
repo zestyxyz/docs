@@ -1,32 +1,53 @@
 # Create a Campaign
 
-Go to [https://zesty.market](https://zesty.market) and click on **Launch App.**
+Campaigns are your gateway to exposure in the metaverse. Here's what you'll need to do:
+1. [Connect to the Blockchain](#connect-to-the-blockchain)
+2. [Setup your Campaign](#create-a-campaign)
+3. [Mint an NFT that represents your Campaign](#confirm-your-campaign-on-the-blockchain)
 
-Connect your wallet using the **Connect Wallet** button on top right. Once you're connected, click on **Campaigns** to create your campaign**.**
+## 1. Connect to the Blockchain
+
+You'll need to connect to the blockchain to get market data and mint your Campaign token. Currently, we use [Polygon](https://polygon.technology), which is a low-fee, low-carbon impact Ethereum sidechain.
+
+
+1. Make sure your wallet is set to the Polygon network and press **Connect**
+
+1. Click on **Campaigns**
 
 ![](<../../.gitbook/assets/image (11).png>)
+
+:::tip dont have a wallet?
+Check out our [Metamask Guide](../metamask)
+:::
+
+## 2. Create a Campaign
 
 On your campaigns page, click on **Create Campaign** button on the top right of the screen.
 
 ![](<../../.gitbook/assets/image (19).png>)
 
-That will bring you to the Create A Campaign page. There are a few fields you'll need to fill up:
+:::tip Prepare your content
+Zesty currently accepts **JPG and PNG** under 2mb
+:::
 
-![](<../../.gitbook/assets/image (21).png>)
+### Campaign Attributes
 
-* **Format**
-  * You can choose your campaign image to be displayed at Twitch, WebXR, or Web.
+>* **Format**
+    * **Square, Tall, Wide** or **Twitch**
+    * If you want to be compatible with every space, make all four!
 * **Image To Be Shown**
-  * This is where you upload the image to be used as your ad. The sizes varies depending on which platform you choose for it to be displayed at
+    * Your image, which is compatible with your format selection
 * **Campaign Name**
-  * Name of your campaign
+    * Name your campaign
+    * People will see this when you bid on their auctions
 * **Call to Action URL**
-  * This will be the link where you want your viewers to go when they click on the ad
-* **Description (Optional)**
-  * Details about your campaign for creators to read more about your campaign
+    * Where users will be linked if they click your ad
+* **Description (optional)**
+    * Details about your campaign for creators to read more about your campaign
+    * Space owners can reject your bid, so make sure to be clear!
 
-### Campaign Image Formats
-
+<details open="true">
+<summary>Image Formats</summary>
 Ensure that your campaign image format matches the Zesty space's banner format. Below are the dimensions of the supported assets (width x height):
 
 | Format | Width (px) | Height (px) |
@@ -35,12 +56,9 @@ Ensure that your campaign image format matches the Zesty space's banner format. 
 | Wide   | 1024       | 256         |
 | Square | 500        | 500         |
 | Twitch | 550        | 200         |
+</details>
 
-:::tip
-Twitch campaigns also support animated .gifs. Make sure the dimensions are set to`550x200.`
-:::
-
-![](<../../.gitbook/assets/image (14).png>)
+## 3. Confirm your Campaign on the blockchain
 
 Once you've done and clicked the **Create** button, a MetaMask window will pop-up. You can click on **Confirm** to proceed. The gas fee will be in Matic and the transaction might take a while.
 

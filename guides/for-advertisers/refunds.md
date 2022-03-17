@@ -19,5 +19,5 @@ If you can prove that your ad was not successfully displayed during your timeslo
 If we are able to refund your USDC, there will be a small fee taken to discourage malicious advertisers from taking advantage of the system.
 
 :::note 
-We're working on an automated refund solution. Check out our [Litepaper](../../about/litepaperzesty-market-protocol) for details on a decentralized validation
+We're working on an automated refund solution. Check out our [Litepaper](../../about/litepaper#zesty-market-protocol) for details on a decentralized validation
 :::

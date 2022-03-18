@@ -6,7 +6,7 @@ You can get refunds on either **bids you want to cancel** or **Space owners fail
 
 <center><img height="80%" width="80%" src="https://i.imgur.com/2hPo4jF.jpg" /></center>
 
-If you'd like to cancel a bid that you've placed, you can do so through the **Auctions** tab on either the Space you're bidding on or the **Active Bids** tab on your Campaign's page.
+If you'd like to cancel a bid that you've placed, you can do so through the **Auctions** tab on either the billboard you're bidding on or the **Active Bids** tab on your Campaign's page.
 
 :::caution
 Canceling a bid will require an on-chain transaction

@@ -38,7 +38,7 @@ Zesty currently accepts **JPG and PNG** under 2mb
 
 >* **Format**
     * **Square, Tall, Wide** or **Twitch**
-    * If you want to be compatible with every space, make all four!
+    * If you want to be compatible with every billboard, make all four!
     * **Make sure** your format matches one of the Zesty Banner formats
 * **Image To Be Shown**
     * Your image, which is compatible with your format selection
@@ -49,7 +49,7 @@ Zesty currently accepts **JPG and PNG** under 2mb
     * Where users will be linked if they click your ad
 * **Description (optional)**
     * Details about your campaign for creators to read more about your campaign
-    * Space owners can reject your bid, so make sure to be clear!
+    * Billboard owners can reject your bid, so make sure to be clear!
 
 <details open="true">
 <summary>Image Formats</summary>

@@ -95,3 +95,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   border-radius: 12px !important;
 }
 
+.admonition-info{
+  background-color: #1a9bac1f !important;
+  border: 1px solid #000000 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  border-radius: 12px !important;
+}
+

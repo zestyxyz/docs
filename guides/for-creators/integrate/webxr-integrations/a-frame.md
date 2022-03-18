@@ -50,6 +50,7 @@ To opt into enabling a beacon for your space, copy and paste:
 
 These are the available attributes for your banner:
 
+:::info
 **adSpace**
 *optional*
 
@@ -120,3 +121,4 @@ Scale the banner to your liking. Default value is `1`
 Setting beacon to `true` allows you to view analytics on your space page
 
 `beacon: { type: 'boolean', default: false }`
+:::

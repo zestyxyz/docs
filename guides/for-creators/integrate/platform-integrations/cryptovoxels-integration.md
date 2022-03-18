@@ -64,6 +64,7 @@ loadBanner('0', '0x0000000000000000000000000000000000000000', 'polygon', 'tall',
 
 These are the available attributes for your banner:
 
+:::info
 **space**
 *required*
 
@@ -102,10 +103,10 @@ Integer: Scale the banner to your liking.
 *optional*
 
 Boolean: Setting beacon to `true` allows you to view analytics on your space page
-
+:::info
 
 **Source**:
 
-```
+```javascript
 async function loadBanner(space, creator, network, format, style, beacon = false)
 ```

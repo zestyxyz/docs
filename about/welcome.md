@@ -1,6 +1,6 @@
 # Welcome
 
-![Example of a WebXR banner on the Zesty network.](https://lh6.googleusercontent.com/X70me3JYlLqF9Jvw6Ak4xzahXcNSwPCynRjkhm62eBHkA1hCFWTmPbqH23qF5I0QgZzznBijyO-Q0srUltWje5F\_xOJ-hnmVZudn6tUI6G81ZT4\_D91JXVXJeGYz6WBNoisvlPFU)
+![](https://lh6.googleusercontent.com/X70me3JYlLqF9Jvw6Ak4xzahXcNSwPCynRjkhm62eBHkA1hCFWTmPbqH23qF5I0QgZzznBijyO-Q0srUltWje5F\_xOJ-hnmVZudn6tUI6G81ZT4\_D91JXVXJeGYz6WBNoisvlPFU)
 
 ## TL;DR
 
@@ -12,7 +12,7 @@ Banner spaces are represented as NFTs - ownership of the NFT gives the renter th
 
 ## Advertise
 
-Learn how to rent banner spaces to promote your business or brand [here](../guides/advertisers).
+Learn how to promote your project, app or brand [here](../guides/for-advertisers/bid).
 
 ## Space Owners and Builders
 

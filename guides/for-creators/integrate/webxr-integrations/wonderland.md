@@ -1,4 +1,4 @@
-## Wonderland Engine
+# Wonderland Engine
 
 repository: [https://github.com/zestymarket/sdk/tree/main/wonderland](https://github.com/zestymarket/sdk/tree/main/wonderland)
 
@@ -39,6 +39,7 @@ Create a new mesh, set its type to PrimitivePlane, and create a new material for
 
 Add the zesty-banner component to your mesh's object and fill in the following fields as such:
 
+:::info
 **creator**\
 `0x0000000000000000000000000000000000000000`
 
@@ -50,6 +51,7 @@ Add the zesty-banner component to your mesh's object and fill in the following f
 
 **style**\
 `standard`
+:::
 
 ![](https://i.imgur.com/BXMonQ9.png)
 ![](https://i.imgur.com/20BQWXh.png)

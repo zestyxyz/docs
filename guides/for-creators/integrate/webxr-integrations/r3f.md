@@ -52,6 +52,7 @@ Adding a banner to the previous example would look like this:
 
 These are the available attributes for your banner:
 
+:::info
 **space**
 *required*
 
@@ -93,6 +94,8 @@ Integer: Scale the banner to your liking.
 *optional*
 
 Boolean: Setting beacon to `true` allows you to view analytics on your space page
+:::
+
 
 **Source**
 
@@ -103,5 +106,6 @@ Boolean: Setting beacon to `true` allows you to view analytics on your space pag
    format={'YOUR_SPACE_FORMAT'}
    style={'YOUR_DESIRED_BANNER_STYLE'}
    beacon={true}
-   position={[X, Y, Z]} />
+   position={[X, Y, Z]} 
+/>
 ```

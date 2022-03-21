@@ -56,6 +56,7 @@ scene.add(zestyBanner);
 
 These are the available attributes for your banner:
 
+:::info
 **space**
 *required*
 
@@ -94,10 +95,11 @@ Integer: Scale the banner to your liking.
 *optional*
 
 Boolean: Setting beacon to `true` allows you to view analytics on your space page
+:::
 
 **Source**
 
-```
+```javascript
 /**
    * @constructor
    * @param {string} space The space ID

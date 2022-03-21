@@ -58,6 +58,7 @@ const zestyBanner = new ZestyBanner("0", "0x000000000000000000000000000000000000
 
 These are the available attributes for your banner:
 
+:::info
 **space**
 *required*
 
@@ -96,10 +97,11 @@ Integer: Scale the banner to your liking.
 *optional*
 
 Boolean: Setting beacon to `true` allows you to view analytics on your space page
+:::
 
 **Source**
 
-```
+```javascript
 export default class ZestyBanner {
   constructor(space, creator, network, format, style, height, scene, webXRExperienceHelper = null, beacon = false) {
     const options = {

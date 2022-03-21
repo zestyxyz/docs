@@ -41,7 +41,16 @@ module.exports = {
 
             ]
         },
-        'advertisers',
+        {
+            type: 'category',
+            label: 'Advertisers',
+            collapsed: false,
+            items: [
+                'for-advertisers/create-campaign',
+                'for-advertisers/bid',
+                'for-advertisers/refunds'
+            ]
+        },
         'faq',
         'metamask',
         {

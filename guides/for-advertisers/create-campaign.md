@@ -37,7 +37,7 @@ Zesty currently accepts **JPG and PNG** under 2mb
 ### Attributes
 
 >* **Format**
-    * **Square, Tall, Wide** or **Twitch**
+    * **Square, Tall, Wide**
     * If you want to be compatible with every billboard, make all four!
     * **Make sure** your format matches one of the Zesty Banner formats
 * **Image To Be Shown**
@@ -59,7 +59,6 @@ Zesty currently accepts **JPG and PNG** under 2mb
 | Tall   | 768        | 1024        |
 | Wide   | 1024       | 256         |
 | Square | 500        | 500         |
-| Twitch | 550        | 200         |
 </details>
 
 ## 3. Confirm your Campaign on the blockchain

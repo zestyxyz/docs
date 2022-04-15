@@ -32,7 +32,7 @@ You'll be sent to the **Create A Space NFT** page. This is where you can fill in
 * **Name**
   * Give your Space NFT a name for renters to see
 * **Location URL**
-  * The URL to the Space. Eg: your Twitch channel. If your link is coordinate based, try to link to a good view of your space.
+  * The URL to the Space. If your link is coordinate based, try to link to a good view of your space.
 * **Description**
   * Write any supporting details about your Space NFT
   * Some ideas: Space location (eg: top right of the page), average visitors, your WebXR experience details, livestreaming channel details, anything.

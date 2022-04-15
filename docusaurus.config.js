@@ -33,6 +33,13 @@ const config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'UA-193353657-1',
+        anonymizeIP: true,
+      },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'guides',

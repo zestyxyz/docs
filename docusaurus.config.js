@@ -22,6 +22,10 @@ const config = {
     [
       '@docusaurus/preset-classic',
       ({
+        gtag: {
+          trackingID: 'G-4EWNW4EEDX',
+          anonymizeIP: true,
+        },
         docs: false,
         blog: false,
         theme: {
@@ -32,13 +36,6 @@ const config = {
   ],
 
   plugins: [
-    [
-      '@docusaurus/plugin-google-analytics',
-      {
-        trackingID: 'UA-193353657-1',
-        anonymizeIP: true,
-      },
-    ],
     [
       '@docusaurus/plugin-content-docs',
       {

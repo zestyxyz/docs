@@ -1,9 +1,8 @@
 # Muse
 
 :::note
-You will first need to create a Space NFT in order to get started checkout [For Creators](../../create-space.md) for more instructions.
+You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
 :::
-
 
 ## Instructions
 
@@ -15,23 +14,23 @@ Log in to Muse and enter builder mode on one of your spaces.
 
 Press Tab to open the build menu, then click "Add". This shows you the different components you can add to your Muse scene.
 
-![](../../../../.gitbook/assets/muse1.png)
+![The Muse build menu.](../../../../.gitbook/assets/muse1.png)
 
 **Step 3**
 
 Click "Specify" and then paste in this identifier that corresponds to the Zesty Banner:
 
-```
+```text
 d351e206-edb0-4278-adc6-5b79d6a91464
 ```
 
-![](../../../../.gitbook/assets/muse2.png)
+![Hovering over "specify" in the build menu.](../../../../.gitbook/assets/muse2.png)
 
-![](../../../../.gitbook/assets/muse3.png)
+![Entering the identifier into the specify field.](../../../../.gitbook/assets/muse3.png)
 
 Click "Add" and you should then see a large black square appear in front of you. This is the banner, which now needs to be configured with the proper settings.
 
-![](../../../../.gitbook/assets/muse4.png)
+![The blank Zesty Banner component added to the scene.](../../../../.gitbook/assets/muse4.png)
 
 **Step 4**
 
@@ -43,9 +42,9 @@ Select the banner, then fill out the following fields to line up with your space
 * Style: The style of your default banner when no campaign is currently running on it. Should be `standard`, `minimal`, or `transparent`.
 * Disable Beacon: Whether to opt out of sending analytics to Zesty's beacon service.
 
-![](../../../../.gitbook/assets/muse5.png)
+![The network, space, and format fields being set on the Zesty Banner.](../../../../.gitbook/assets/muse5.png)
 
-![](../../../../.gitbook/assets/muse6.png)
+![The style and beaccon fields being set on the Zesty Banner.](../../../../.gitbook/assets/muse6.png)
 
 **Step 5**
 

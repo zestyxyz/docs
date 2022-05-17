@@ -3,9 +3,8 @@
 repository: [https://github.com/zestymarket/sdk/tree/main/wonderland](https://github.com/zestymarket/sdk/tree/main/wonderland)
 
 :::note
-You will first need to create a Space NFT in order to get started checkout [For Creators](../../create-space.md) for more instructions.
+You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
 :::
-
 
 #### Step 1a
 
@@ -15,7 +14,7 @@ To just use the bundled file, download it by right-clicking this link and saving
 
 If you are using NPM in your Wonderland project, install it like so:
 
-```
+```sh
 npm install '@zestymarket/wonderland-sdk'
 ```
 
@@ -25,36 +24,32 @@ npm install '@zestymarket/wonderland-sdk'
 
 In your Wonderland project, open your Project Settings view and make sure that the SDK is being included in your JavaScript source paths.
 
-![](https://i.imgur.com/cINXHxv.png)
-
+![The Wonderland Engine Project Settings view showing the SDK included in the source paths.](https://i.imgur.com/cINXHxv.png)
 
 #### Step 3
 
 Create a new mesh, set its type to PrimitivePlane, and create a new material for it as well. Set the pipeline to either "Phong Opaque Textured" or "Flat Opaque Textured."
 
-![](https://i.imgur.com/kwO2Uam.png)
-![](https://i.imgur.com/PIZmivx.png)
+![Adding a new mesh to the Wonderland Engine hierarchy.](https://i.imgur.com/kwO2Uam.png)
+![The mesh and material of the added mesh.](https://i.imgur.com/PIZmivx.png)
 
 #### Step 4
 
 Add the zesty-banner component to your mesh's object and fill in the following fields as such:
 
 :::info
-**creator**\
-`0x0000000000000000000000000000000000000000`
-
-**space**\
+**space**
 `0`
 
-**format**\
+**format**
 `tall`
 
-**style**\
+**style**
 `standard`
 :::
 
-![](https://i.imgur.com/BXMonQ9.png)
-![](https://i.imgur.com/20BQWXh.png)
+![The Zesty Banner component in the component list.](https://i.imgur.com/BXMonQ9.png)
+![The Zesty Banner configuration options.](https://i.imgur.com/aVGpojR.png)
 
 To opt into enabling a beacon on your space, simply check the "beacon" box on the zesty-banner component. This will allow you to see analytics like space visits and banner clicks within the Zesty app.
 
@@ -64,4 +59,4 @@ Press the play button to package, start server and open browser to see changes.
 
 **Result:
 **
-![](https://i.imgur.com/37HqMbN.png)
+![A Wonderland Engine scene with a Zesty Banner added to it.](https://i.imgur.com/37HqMbN.png)

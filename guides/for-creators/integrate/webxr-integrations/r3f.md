@@ -3,30 +3,26 @@
 Repository: [https://github.com/zestymarket/sdk/tree/main/r3f](https://github.com/zestymarket/sdk/tree/main/r3f)
 
 :::note
-You will first need to create a Space NFT in order to get started checkout [For Creators](../../create-space.md) for more instructions.
+You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
 :::
-
 
 ### Importing the SDK
 
 **NPM Project** - install it like so:
 
-```
-npm install `@zestymarket/r3f-sdk'
+```sh
+npm install '@zestymarket/r3f-sdk'
 ```
 
 Once installed, import the ZestyBanner component:
 
-```
+```js
 import * as Zesty from '@zestymarket/r3f-sdk';
 ```
 
+**HTML Script Tag** - Paste this into the `<head>`:
 
-**HTML Tag** - Paste this into the `<head>`:
-
-Zesty can be imported through a single HTML page, no need to install it as a Node Package.
-
-```
+```html
 <script src="https://ipfs.io/ipns/lib.zesty.market/zesty-r3f-sdk.js"></script>
 ```
 
@@ -34,18 +30,18 @@ Zesty can be imported through a single HTML page, no need to install it as a Nod
 
 In your VR Canvas component, copy and paste:
 
-```
-<ZestyBanner space={'0'} creator={'0x0000000000000000000000000000000000000000'} format={'tall'} style={'standard'} position={[0, 2, 0]} />
+```jsx
+<ZestyBanner space={'0'} format={'tall'} style={'standard'} position={[0, 2, 0]} />
 ```
 
-replace `space= ` with your Space ID and `creator= ` with your wallet address.
+Replace `space={'0'}` with your own Space ID.
 
 You can also pass the argument `beacon={true}` if you would like to opt into Zesty Analytics. Anyone will be able to view this on your Space's page, where it will display a history of visits to your space and clicks on your banner.
 
 Adding a banner to the previous example would look like this:
 
-```
-<ZestyBanner space={'0'} creator={'0x0000000000000000000000000000000000000000'} format={'tall'} style={'standard'} beacon={true} position={[0, 2, 0]} />
+```jsx
+<ZestyBanner space={'0'} format={'tall'} style={'standard'} beacon={true} position={[0, 2, 0]} />
 ```
 
 ### Customizing your banner display
@@ -59,13 +55,6 @@ These are the available attributes for your banner:
 String: The ID of your space.
 
 `space={'YOUR_SPACE_ID'}`
-
-**creator**
-*required*
-
-String: The wallet address of the creator of the space
-
-`creator={'YOUR_CREATOR_ID'}`
 
 **format**
 *required*
@@ -96,13 +85,11 @@ Integer: Scale the banner to your liking.
 Boolean: Setting beacon to `true` allows you to view analytics on your space page
 :::
 
+### Source Reference
 
-**Source**
-
-```
+```jsx
 <ZestyBanner
    space={'YOUR_SPACE_ID'}
-   creator={'YOUR_CREATOR_ID'}
    format={'YOUR_SPACE_FORMAT'}
    style={'YOUR_DESIRED_BANNER_STYLE'}
    beacon={true}

@@ -3,15 +3,14 @@
 Repository: [https://github.com/zestymarket/sdk/tree/main/cryptovoxels](https://github.com/zestymarket/sdk/tree/main/cryptovoxels)
 
 :::note
-You will first need to create a Space NFT in order to get started checkout [For Creators](../../create-space.md) for more instructions.
+You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
 :::
-
 
 ## Instructions
 
 #### Create an image
 
-![](https://i.imgur.com/P0BgYjR.png)
+![Add Image button in Cryptovoxels](https://i.imgur.com/P0BgYjR.png)
 
 Add an 'image from URL' to your Cryptovoxels parcel.
 
@@ -37,28 +36,35 @@ Under Display, make sure Stretch is checked.
 
 #### Add the script
 
-In the Script section, copy and paste the script located here:
+**At the beginning of the script section**, copy these lines to set your banner's configuration:
 
-[https://github.com/zestymarket/sdk/blob/main/cryptovoxels/integration.js](https://raw.githubusercontent.com/zestymarket/sdk/main/cryptovoxels/integration.js)
-
-![](https://i.imgur.com/bAkIr42.png)
-
-
-**At the end of the script**, copy this line to call the loadBanner function (modify according to your own space information):
-
+```js
+const settings = `
+const SPACE = 0;
+const NETWORK = 'polygon';
+const FORMAT = 'square';
+const STYLE = 'transparent';
+const BEACON = true;
+`;
 ```
-loadBanner('0', '0x0000000000000000000000000000000000000000', 'polygon', 'tall', 'standard');
+
+Replace `0` with your space ID.
+
+You can also set BEACON to `true` if you would like to opt into Zesty Analytics. Anyone will be able to view this on your Space's page, where it will display a history of visits to your space and clicks on your banner. Further configuration options are given in the following section of this guide.
+
+After the settings block, copy and paste this code block:
+
+```js
+fetch('https://raw.githubusercontent.com/zestymarket/sdk/main/cryptovoxels/integration.js').then(res => {
+  res.text().then(text => {
+    eval(settings + text);
+  })
+});
 ```
 
-Replace `0` and  `0x0000000000000000000000000000000000000000` with your space number and wallet address
+This will dynamically fetch the latest version of the Cryptovoxels integration script and then execute it.
 
-You can also pass the argument `true` if you would like to opt into Zesty Analytics. Anyone will be able to view this on your Space's page, where it will display a history of visits to your space and clicks on your banner.
-
-Adding a banner to the previous example would look like this:
-
-```
-loadBanner('0', '0x0000000000000000000000000000000000000000', 'polygon', 'tall', 'standard', true)
-```
+![The Cryptovoxels image loaded and placed against a wall.](https://i.imgur.com/fyyTTXQ.png)
 
 #### Customizing your banner display
 
@@ -70,42 +76,33 @@ These are the available attributes for your banner:
 
 String: The ID of your space.
 
-**creator**
+**network**
 *required*
 
-String: The wallet address of the creator of the space
-
-**network**
-*optional - defaults to `polygon`*
-
-String: The network in which your space NFT was minted
+String: The network in which your space NFT was minted. Should be set to either `polygon` or `rinkeby`
 
 **format**
 *required*
 
-String: Specify format of your ad space `tall`, `wide`, or `square`
+String: Determines the aspect ratio of your ad space. Valid options are `tall`, `wide`, or `square`.
 
-- Tall - 3:4
-- Wide - 4:1
-- Square - 1:1
+* Tall - 3:4
+* Wide - 4:1
+* Square - 1:1
 
 **style**
-*optional - defaults to `standard`*
+*required*
 
-String: Style of your placeholder image, which notifies viewers that the ad space is available
-
-**height**
-*optional - defaults to `1`*
-
-Integer: Scale the banner to your liking.
+String: Style of your placeholder image, which notifies viewers that the ad space is available.
+Valid options are `standard`, `minimal`, and `transparent`.
 
 **beacon**
 *optional*
 
-Boolean: Setting beacon to `true` allows you to view analytics on your space page
+Boolean: Setting beacon to `true` allows you to view analytics on your space page.
 :::info
 
-**Source**:
+### Source Reference
 
 ```javascript
 async function loadBanner(space, creator, network, format, style, beacon = false)

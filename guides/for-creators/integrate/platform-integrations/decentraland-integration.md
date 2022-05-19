@@ -7,9 +7,8 @@ description: >-
 # Decentraland Integration
 
 :::note
-You will first need to create a Space NFT in order to get started checkout [For Creators](../../create-space.md) for more instructions.
+You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
 :::
-
 
 ## Instructions
 
@@ -25,23 +24,23 @@ Download the latest release of the Zesty Banner smart item (it will be the first
 
 Open your scene in the [Decentraland Builder](https://builder.decentraland.org), then click "+ New Asset Pack"
 
-![](../../../../.gitbook/assets/DCL\_1.png)
+![Selecting "New Asset Pack"](../../../../.gitbook/assets/DCL\_1.png)
 
 **Step 3**
 
 When prompted, drag the item.zip folder you downloaded previously into the indicated area.&#x20;
 
-![](../../../../.gitbook/assets/DCL\_2.png)
+![The "New Asset Pack" file upload window.](../../../../.gitbook/assets/DCL\_2.png)
 
 **Step 4**
 
 You will be prompted to give the asset a unique name. This name is for your reference.&#x20;
 
-![](../../../../.gitbook/assets/DCL\_3.png)
+![The "Create Asset Pack" screen.](../../../../.gitbook/assets/DCL\_3.png)
 
 Once done you now have the custom Zesty Banner smart item available to use!
 
-![](<../../../../.gitbook/assets/DCL\_4 (1).png>)
+![The imported smart item now present on the sidebar.](<../../../../.gitbook/assets/DCL\_4 (1).png>)
 
 **Step 5**
 
@@ -57,4 +56,4 @@ Open your new asset pack and click the Zesty Banner smart item to spawn it into 
 
 **Beacon**: To opt into enabling a beacon on your space. This will allow you to see analytics like space visits and banner clicks within the Zesty app.
 
-![](<../../../../.gitbook/assets/DCL\_5 (1).png>)
+![The Zesty Banner smart item settings.](<../../../../.gitbook/assets/DCL\_5 (1).png>)

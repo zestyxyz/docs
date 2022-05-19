@@ -3,33 +3,30 @@
 Repository: [https://github.com/zestymarket/sdk/tree/main/babylonjs](https://github.com/zestymarket/sdk/tree/main/babylonjs)
 
 :::note
-You will first need to create a Space NFT in order to get started checkout [For Creators](../../create-space.md) for more instructions.
+You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
 :::
-
 
 ### Importing the SDK
 
 **NPM Project** - install it like so:
 
-```
+```sh
 npm install '@zestymarket/babylonjs-sdk'
 ```
 
 Once installed, import the ZestyBanner component:
 
-```
+```js
 import * as Zesty from '@zestymarket/babylonjs-sdk';
 ```
 
 **Warning**: Make sure you are using the same babylon.js version as the Zesty package. You can check here: https://github.com/zestymarket/sdk/blob/main/babylonjs/package.json
 
-If you are using an unsupported version, you can import a specific version of three.js from services like CDN: [https://cdn.skypack.dev/babylonjs@version](https://cdn.skypack.dev/babylonjs@4.2.1)
+If you are using an unsupported version, you can import a specific version of babylon.js from CDNs like Skypack: [https://cdn.skypack.dev/babylonjs@version](https://cdn.skypack.dev/babylonjs@4.2.1)
 
-**HTML Tag** - Paste this into the `<head>`:
+**HTML Script Tag** - Paste this into the `<head>`:
 
-Zesty can be imported through a single HTML page, no need to install it as a Node Package.
-
-```
+```html
 <script src="https://ipfs.io/ipns/lib.zesty.market/zesty-babylonjs-sdk.js"></script>
 ```
 
@@ -37,11 +34,11 @@ Zesty can be imported through a single HTML page, no need to install it as a Nod
 
 Make sure you have a reference to your scene and WebXRHelper (if applicable), then copy and paste:
 
-```
-const zestyBanner = new ZestyBanner("0", "0x0000000000000000000000000000000000000000", "tall", "standard", 3, scene, xrHelper);
+```js
+const zestyBanner = new ZestyBanner("0", "tall", "standard", 3, scene, xrHelper);
 ```
 
-Replace `0` with your Space ID and  `0x0000000000000000000000000000000000000000` with your wallet address
+Replace `0` with your own Space ID.
 
 Substitute variable names as needed. The last parameter for the WebXRHelper is optional.
 
@@ -49,10 +46,9 @@ You can also pass the argument `true` if you would like to opt into Zesty Analyt
 
 Adding a banner to the previous example would look like this:
 
+```js
+const zestyBanner = new ZestyBanner("0", "tall", "standard", 3, scene, xrHelper, true);
 ```
-const zestyBanner = new ZestyBanner("0", "0x0000000000000000000000000000000000000000", "tall", "standard", 3, scene, xrHelper, true);
-```
-
 
 ### Customizing your banner display
 
@@ -64,46 +60,52 @@ These are the available attributes for your banner:
 
 String: The ID of your space.
 
-**creator**
+**network**
 *required*
 
-String: The wallet address of the creator of the space
-
-**network**
-*optional - defaults to `polygon`*
-
-String: The network in which your space NFT was minted
+String: The network in which your space NFT was minted. Should be set to either `polygon` or `rinkeby`.
 
 **format**
 *required*
 
-String: Specify format of your ad space `tall`, `wide`, or `square`
+String: Determines the aspect ratio of your ad space. Valid options are `tall`, `wide`, or `square`.
 
 - Tall - 3:4
 - Wide - 4:1
 - Square - 1:1
 
 **style**
-*optional - defaults to `standard`*
+*required*
 
-String: Style of your placeholder image, which notifies viewers that the ad space is available
+String: Style of your placeholder image, which notifies viewers that the ad space is available.
+Valid options are `standard`, `minimal`, and `transparent`.
 
 **height**
-*optional - defaults to `1`*
+*required*
 
-Integer: Scale the banner to your liking.
+Integer: Scales the banner to your liking.
+
+**scene**
+*required*
+
+A reference to your babylon.js scene.
+
+**webXRExperienceHelper**
+*optional*
+
+A reference to a babylon.js WebXR Experience helper, if applicable. Can otherwise be omitted unless you are changing beacon settings, in which case it should be set to null.
 
 **beacon**
 *optional*
 
-Boolean: Setting beacon to `true` allows you to view analytics on your space page
+Boolean: Setting beacon to `true` allows you to view analytics on your space page.
 :::
 
-**Source**
+### Source Reference
 
 ```javascript
 export default class ZestyBanner {
-  constructor(space, creator, network, format, style, height, scene, webXRExperienceHelper = null, beacon = false) {
+  constructor(space, network, format, style, height, scene, webXRExperienceHelper = null, beacon = false) {
     const options = {
       height: height,
       width: formats[format].width * height

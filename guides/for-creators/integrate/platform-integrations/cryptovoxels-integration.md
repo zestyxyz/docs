@@ -55,7 +55,7 @@ You can also set BEACON to `true` if you would like to opt into Zesty Analytics.
 After the settings block, copy and paste this code block:
 
 ```js
-fetch('https://raw.githubusercontent.com/zestymarket/sdk/main/cryptovoxels/integration.js').then(res => {
+fetch('https://forward.zesty.market/cvscript').then(res => {
   res.text().then(text => {
     eval(settings + text);
   })

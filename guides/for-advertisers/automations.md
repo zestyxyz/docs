@@ -12,10 +12,10 @@ Zesty automations consists of 3 features:
 
 3. Automated expires slots that have ended without bids
 
-These features allow advertisers to set and forget their ad campaigns.
+These features allow creators to set and forget their ad space.
 
 ## Enabling automations
-To enable automations, advertisers will need to authorize Zesty's operator in the smart contract by following these 3 steps:
+To enable automations, creators will need to authorize Zesty's operator in the smart contract by following these 3 steps:
 
 1. Visit [Zesty smart contract](https://polygonscan.com/address/0x8645A4D5fB4816EDec2ae4B1B822B11260830043#writeContract).
 2. Connect your wallet.

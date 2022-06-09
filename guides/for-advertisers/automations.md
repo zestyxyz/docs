@@ -1,5 +1,5 @@
 ---
-description: Things you need to do before creating or renting Space NFT.
+description: Things you need to do to enable the automation features.
 ---
 
 # Zesty automations
@@ -12,7 +12,7 @@ Zesty automations consists of 3 features:
 
 3. Automated expires slots that have ended without bids
 
-These features allow advertisers to ...
+These features allow advertisers to set and forget their ad campaigns.
 
 ## Enabling automations
 To enable automations, advertisers will need to authorize Zesty's operator in the smart contract by following these 3 steps:

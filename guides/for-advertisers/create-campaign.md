@@ -7,8 +7,6 @@ Campaigns are your gateway to brand exposure in the metaverse. Setting one up is
     - [Attributes](#attributes)
   - [3. Confirm your Campaign on the blockchain](#3-confirm-your-campaign-on-the-blockchain)
 
-<center><div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="90%" height="432" src="https://www.youtube.com/embed/v6K6J44WsGI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
-
 ## 1. Connect to the Blockchain
 
 You'll need to connect to the blockchain to get market data and mint your Campaign token. Currently, we use [Polygon](https://polygon.technology), which is a low-fee, low-carbon impact Ethereum sidechain.

@@ -12,10 +12,6 @@ You will first need to create a Space NFT in order to get started. Check out [Fo
 
 ## Instructions
 
-**Video Tutorial**
-
-<div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="100%" height="432" src="https://www.youtube.com/embed/6sn8blLfoiI" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
 **Step 1**
 
 Download the latest release of the Zesty Banner smart item (it will be the first file listed named "item.zip"), which you can find in the GitHub repository [here](https://github.com/zestymarket/dcl/releases/download/v1.1/item.zip).

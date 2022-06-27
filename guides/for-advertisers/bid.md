@@ -10,8 +10,6 @@ Here's what you'll need to do:
   - [3. Submit your purchase](#3-submit-your-purchase)
   - [4. Wait for owner approval](#4-wait-for-owner-approval)
 
-<center><div class="iframe" position="relative" padding-bottom="56.25%" padding-top="30px" height="0" overflow="hidden"><iframe width="90%" height="432" src="https://www.youtube.com/embed/lEM9-r4PiRQ" title="YouTube video player" frameborder="0" position="absolution" top="0" left="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
-
 ## 1. Find a billboard
 
 When connected to the blockchain, you can find all active an inactive listings in the [Billboard Market](https://app.zesty.market/).

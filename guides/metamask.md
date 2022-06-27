@@ -40,7 +40,7 @@ If you do not have an Ethereum wallet yet, you may click on "Create a Wallet".
 
 ![](../.gitbook/assets/MM\_04.1\_CreateNew.png)
 
-Create a password when prompted. Read and watch the video on how you can secure your wallet. Once done, click Next.
+Create a password when prompted. Once done, click Next.
 
 :::tip
 
@@ -85,10 +85,6 @@ Fill in below information:
 And click Save when you're done! You'll be switched to Polygon network when you're done.
 
 You may switch to other networks at anytime by clicking on the network name on the network dropdown.
-
-### **Watch our video to see the entire process** <a href="#watch-our-video-to-see-the-entire-process" id="watch-our-video-to-see-the-entire-process"></a>
-
-<iframe width="760" height= '432' src="https://www.youtube.com/embed/m5WyNgrKbPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### **Getting Matic from Matic Faucet**
 

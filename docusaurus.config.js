@@ -9,13 +9,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Zesty Market',
   tagline: 'Resources and Documentation',
-  url: 'https://zesty-docusaurus.vercel.app/',
+  url: 'https://docs.zesty.market/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/zesty.png',
-  organizationName: 'Zesty Market', // Usually your GitHub org/user name.
-  projectName: 'zesty-docusaurus', // Usually your repo name.
+  organizationName: 'zestymarket', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   
   presets: [
@@ -40,7 +40,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'guides',
-        path: './guides/',
+        path: './docs/guides/',
         routeBasePath: 'guides/',
         sidebarPath: require.resolve('./sidebars/guides-sidebar.js'),
       },
@@ -49,7 +49,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'system-overview',
-        path: './system-overview/',
+        path: './docs/system-overview/',
         routeBasePath: 'system-overview/',
         sidebarPath: require.resolve('./sidebars/system-sidebar.js'),
       },
@@ -58,7 +58,7 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'smart-contracts',
-        path: './smart-contracts/',
+        path: './docs/smart-contracts/',
         routeBasePath: 'smart-contracts/',
         sidebarPath: require.resolve('./sidebars/contracts-sidebar.js'),
       },
@@ -66,10 +66,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'about',
-        path: './about/',
-        routeBasePath: 'about/',
-        sidebarPath: require.resolve('./sidebars/about-sidebar.js'),
+        id: 'docs',
+        path: './docs/',
+        routeBasePath: 'docs',
+        sidebarPath: require.resolve('./sidebars/docs-sidebar.js'),
       },
     ],
     [
@@ -92,8 +92,8 @@ const config = {
         },
         items: [
           {
-            to: 'about/welcome',
-            label: 'About'
+            to: 'docs/intro',
+            label: 'Introduction'
           },
           {
             to: '/guides/for-creators/create-space',

@@ -18,17 +18,17 @@ MetaMask is a browser-based extension that will provide you with an Ethereum wal
 
 Go to [https://metamask.io/download](https://metamask.io/download) to find the download link to your device or browser. Click on download.
 
-![](../.gitbook/assets/MM\_01\_Download.png)
+![](../../.gitbook/assets/MM\_01\_Download.png)
 
 You'll be directed to the MetaMask extension page on the Chrome Web Store. Click on "Add to Browser"
 
-![](../.gitbook/assets/MM\_02\_extension.png)
+![](../../.gitbook/assets/MM\_02\_extension.png)
 
 ### Set-up
 
 Once completed you'll see the MetaMask welcome page. Click on Getting Started.
 
-![](../.gitbook/assets/MM\_03\_GetStarted.png)
+![](../../.gitbook/assets/MM\_03\_GetStarted.png)
 
 :::tip
 Pin the extension so you can have a quick access to your wallet.*
@@ -38,7 +38,7 @@ You'll see the option of "Import wallet" or "Create a Wallet". If you already ha
 
 If you do not have an Ethereum wallet yet, you may click on "Create a Wallet".
 
-![](../.gitbook/assets/MM\_04.1\_CreateNew.png)
+![](../../.gitbook/assets/MM\_04.1\_CreateNew.png)
 
 Create a password when prompted. Once done, click Next.
 
@@ -53,7 +53,7 @@ Your recovery phrase is the “master key” to your wallet and funds.
 
 You'll see your Secret Recovery Phrase here. Write down the Secret Recovery Phrase. Keep it offline, do not screenshot, or save the phrase in your computer or on the cloud.
 
-![](../.gitbook/assets/MM\_04.1\_CreateNew.png)
+![](../../.gitbook/assets/MM\_04.1\_CreateNew.png)
 
 On the next page, you'll be prompted to re-create the phrase, click on the words in order of the Secret Recovery Phrase you were given earlier.
 
@@ -61,13 +61,13 @@ When you correctly arranged all the words, click on Next and you are done!
 
 You can check your wallet from the extension section.
 
-![](../.gitbook/assets/MM\_05\_DonePinned.png)
+![](../../.gitbook/assets/MM\_05\_DonePinned.png)
 
 ## 2. Adding Polygon network
 
 To add Polygon to your MetaMask, go to your MetaMask, click on Network selection dropdown, click on Custom RPC.
 
-![](../.gitbook/assets/Poly\_01.png)
+![](../../.gitbook/assets/Poly\_01.png)
 
 Fill in below information:
 
@@ -80,7 +80,7 @@ Fill in below information:
 
     **Block Explorer URL (optional)**: `https://polygonscan.com/`
 
-![](../.gitbook/assets/Poly\_02.png)
+![](../../.gitbook/assets/Poly\_02.png)
 
 And click Save when you're done! You'll be switched to Polygon network when you're done.
 
@@ -113,7 +113,7 @@ The overview of the steps to buying USDC:
 
 First you'll need to load up your wallet with ETH. You can do so by buying ETH on exchanges such as [Coinbase](https://www.coinbase.com) or [Binance](https://www.binance.com/en). You can then transfer the ETH to your Metamask wallet. To find your wallet address, refer below image:
 
-![](<../.gitbook/assets/01 Finding wallet account.png>)
+![](<../../.gitbook/assets/01 Finding wallet account.png>)
 
 ### Send ETH from Mainnet to Polygon
 
@@ -129,17 +129,17 @@ Please while transactions get confirmed. The project will look into fast and rel
 
 When you have your ETH in Polygon network, you may now go to [https://app.sushi.com/swap](https://app.sushi.com/swap) to swap ETH for USDC. Make sure you are in Polygon network (go to your MetaMask wallet, click on the network dropdown on top of the wallet, click and choose Polygon network that you have set up earlier)
 
-![](<../.gitbook/assets/sushi1 (1).png>)
+![](<../../.gitbook/assets/sushi1 (1).png>)
 
 Next, you'll want to choose Swap from as **WETH** and swap to as **USDC**.
 
-![](../.gitbook/assets/sushi2.png)
+![](../../.gitbook/assets/sushi2.png)
 
 Once you've chosen the right tokens (WETH and USDC), choose the amount of ETH you want to swap or the amount of UDSC you want to swap to. Whichever you choose, the platform will auto-calculate how much you'll swap for.
 
 Click on **Confirm Swap**.
 
-![](<../.gitbook/assets/sushi3 (1).png>)
+![](<../../.gitbook/assets/sushi3 (1).png>)
 
 MetaMask pop-up window will appear, to confirm your transaction, click on **Confirm**.
 
@@ -151,6 +151,6 @@ This will confirm your transaction and it might take a while for your transactio
 
 Once the transaction is done, you'll see a small pop-up on your screen. You can also check your USDC balance on your MetaMask wallet.&#x20;
 
-![Right: Confirming transaction. Left: Transaction completed. Checking your balance.](../.gitbook/assets/sushi4.png)
+![Right: Confirming transaction. Left: Transaction completed. Checking your balance.](../../.gitbook/assets/sushi4.png)
 
 Awesome. You've done with the pre-requisites!

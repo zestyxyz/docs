@@ -10,11 +10,11 @@ Next, click on **Create Auction** under the Auctions section. The Auction calend
 
 *Note: You can set up multiple auction timeslots in a single transaction*
 
-![](../../.gitbook/assets/Space\_7.png)
+![](../../../.gitbook/assets/Space\_7.png)
 
 A MetaMask windows will pop-up for you to confirm the transaction. Click **Confirm**.
 
-![](../../.gitbook/assets/Space\_8.png)
+![](../../../.gitbook/assets/Space\_8.png)
 
 When MetaMask notification informs that the transaction is completed, your auction should appear under Auctions. If not, please refresh the page.
 

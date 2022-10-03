@@ -36,11 +36,11 @@ Click "Add" and you should then see a large black square appear in front of you.
 
 Select the banner, then fill out the following fields to line up with your space on the Zesty marketplace. Currently you will need to type these fields out manually and in all lowercase, but in the future these will be replaced by dropdown fields. The fields are:
 
-* Network: The network to connect to. Should be either `polygon` or `rinkeby`.
-* Space: Your space ID on the marketplace. Should be a number.
-* Format: The shape of your banner. Should be `tall`, `wide`, or `square`.
-* Style: The style of your default banner when no campaign is currently running on it. Should be `standard`, `minimal`, or `transparent`.
-* Disable Beacon: Whether to opt out of sending analytics to Zesty's beacon service.
+- Network: The network to connect to. Should be either `polygon` or `rinkeby`.
+- Space: Your space ID on the marketplace. Should be a number.
+- Format: The shape of your banner. Should be `tall`, `wide`, or `square`.
+- Style: The style of your default banner when no campaign is currently running on it. Should be `standard`, `minimal`, or `transparent`.
+- Disable Beacon: Whether to opt out of sending analytics to Zesty's beacon service.
 
 ![The network, space, and format fields being set on the Zesty Banner.](../../../../.gitbook/assets/muse5.png)
 

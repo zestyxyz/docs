@@ -1,4 +1,4 @@
-# Cryptovoxels Integration
+# Cryptovoxels
 
 Repository: [https://github.com/zestymarket/sdk/tree/main/cryptovoxels](https://github.com/zestymarket/sdk/tree/main/cryptovoxels)
 
@@ -20,9 +20,9 @@ Add an 'image from URL' to your Cryptovoxels parcel.
 
 Set the scale of the image to correspond with your space's format. For reference, the aspect ratios on each format are:
 
-* Tall - 3:4
-* Wide - 4:1
-* Square - 1:1
+- Tall - 3:4
+- Wide - 4:1
+- Square - 1:1
 
 Change the Blend mode from Multiply to Combine, unless you would like the image to be affected by lighting.
 
@@ -55,10 +55,10 @@ You can also set BEACON to `true` if you would like to opt into Zesty Analytics.
 After the settings block, copy and paste this code block:
 
 ```js
-fetch('https://forward.zesty.market/cvscript').then(res => {
-  res.text().then(text => {
+fetch("https://forward.zesty.market/cvscript").then((res) => {
+  res.text().then((text) => {
     eval(settings + text);
-  })
+  });
 });
 ```
 
@@ -72,32 +72,32 @@ These are the available attributes for your banner:
 
 :::info
 **space**
-*required*
+_required_
 
 String: The ID of your space.
 
 **network**
-*required*
+_required_
 
 String: The network in which your space NFT was minted. Should be set to either `polygon` or `rinkeby`
 
 **format**
-*required*
+_required_
 
 String: Determines the aspect ratio of your ad space. Valid options are `tall`, `wide`, or `square`.
 
-* Tall - 3:4
-* Wide - 4:1
-* Square - 1:1
+- Tall - 3:4
+- Wide - 4:1
+- Square - 1:1
 
 **style**
-*required*
+_required_
 
 String: Style of your placeholder image, which notifies viewers that the ad space is available.
 Valid options are `standard`, `minimal`, and `transparent`.
 
 **beacon**
-*optional*
+_optional_
 
 Boolean: Setting beacon to `true` allows you to view analytics on your space page.
 :::info

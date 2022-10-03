@@ -1,4 +1,4 @@
-# Unity Integration
+# Unity
 
 Repository: [https://github.com/zestymarket/sdk/tree/main/unity](https://github.com/zestymarket/sdk/tree/main/unity)
 

@@ -20,7 +20,7 @@ Choose the billboard you desire. For the purpose of this guide, we'll use Zesty 
 You can filter by criteria such as **Format**, **Active Listings** or **Lowest Price**
 :::
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../../.gitbook/assets/image (12).png>)
 
 
 ## 2. Bid on a timeslot

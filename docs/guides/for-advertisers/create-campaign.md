@@ -16,7 +16,7 @@ You'll need to connect to the blockchain to get market data and mint your Campai
 
 1. Click on **Campaigns**
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11).png>)
 
 :::tip don't have a wallet?
 Check out our [Metamask Guide](../metamask)
@@ -26,7 +26,7 @@ Check out our [Metamask Guide](../metamask)
 
 On your campaigns page, click on **Create Campaign** button on the top right of the screen.
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19).png>)
 
 :::tip Prepare your content
 Zesty currently accepts **JPG and PNG** under 2mb
@@ -69,7 +69,7 @@ Sometimes the network can be slow. It might help to refresh and try again.
 Reach out to us on [Discord](https://discord.gg/4Jc3XhM5mp) if you need technical support!
 :::
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (17).png>)
 
 After your transaction is mined, you can find your Campaign on the [Campaign page](https://app.zesty.market/campaigns).
 

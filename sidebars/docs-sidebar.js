@@ -1,6 +1,6 @@
 module.exports = {
     mySidebar: [
-        'welcome',
+        'intro',
         'litepaper',
         'tos',
         'privacy-policy'

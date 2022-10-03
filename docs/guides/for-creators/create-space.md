@@ -16,11 +16,11 @@ Once you're connected, click on **Spaces** to create your campaign.
 
 Click on **Create Space** on your Spaces page.
 
-![](../../.gitbook/assets/Space\_1.png)
+![](../../../.gitbook/assets/Space\_1.png)
 
 You'll be sent to the **Create A Space NFT** page. This is where you can fill in your Space details, including name, image and link. Each Space is an NFT and the details are the metadata attached to the NFT.
 
-![](../../.gitbook/assets/Space\_2.png)
+![](../../../.gitbook/assets/Space\_2.png)
 
 * **Image**
   * Show off your space
@@ -37,7 +37,7 @@ You'll be sent to the **Create A Space NFT** page. This is where you can fill in
 
 Once the details are filled, click on **Create**. A MetaMask pop-up will ask you to confirm transaction, click **Confirm**.
 
-![](../../.gitbook/assets/Space\_3.png)
+![](../../../.gitbook/assets/Space\_3.png)
 
 When the transaction is completed, you'll receive a notification from MetaMask. You may check on your Space by going to the Space page. If the Space is listed, you're done creating your Space NFT!
 
@@ -49,9 +49,9 @@ In the Space page, you'll find **Deposit NFT** button, click on it.
 
 A deposit NFT pop-up will appear. There are 2 actions you are required to do here, **Approve** and **Deposit**. You'll need to do each of the action one-by-one. Both of the buttons will result in MetaMask pop-ups requiring you to confirm your actions.
 
-![](../../.gitbook/assets/Space\_5.png)
+![](../../../.gitbook/assets/Space\_5.png)
 
 **Below are the Confirmations you'll need to do when Approving and Depositing your NFT.** On both occasions, you'll get a notification when the transaction is completed.
 
 
-![Left: Approving Zesty to spend your USDC. Right: Confirming to deposit your NFT](../../.gitbook/assets/Space\_6.png)
+![Left: Approving Zesty to spend your USDC. Right: Confirming to deposit your NFT](../../../.gitbook/assets/Space\_6.png)

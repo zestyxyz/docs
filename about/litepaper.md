@@ -124,7 +124,7 @@ The various portals associated with creators are tokenized in the form of NFTs, 
 The Data Appchain provides a substrate for other possible applications to be built on it, games, experiences, and data powered NFTs. The current Data Applications listed are not complete. Through data ownership and token incentives, Zesty hopes to enable the community to build on top of the data rails built.
 
 ## Tokenomics
-![Token Distribution](../.gitbook/assets/token_distribution.jpeg)
+![Token Distribution](../.gitbook/assets/tokendistribution.png)
 
 The SDK, Data Appchain, and Data Applications gives the protocol a number of potential sinks and faucets. The burn associated with sinks and emissions faucets can be adjusted through governance of the platform. The optimal values will likely be dynamic given how the ecosystem evolves. We anticipate that token incentives to bootstrap SDK adoption and Data appchain node at the very beginning will be where most of the emissions will occur. The rate of distribution will be designed to start at a fairly fast rate to bootstrap adoption and then decay
 

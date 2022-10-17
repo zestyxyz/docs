@@ -6,6 +6,11 @@ description: Version 0.3
 
 ## Changelog
 
+* Version 1.0 (Oct 2022)
+  * Major changes to the litepaper to reflect learning
+  * Introduction of Data Appchain as the successor to Beacons
+  * Introduction of the Zesty Token Network
+
 * Version 0.3 (Dec 2021)
   * Added "Changelog"
   * Update Abstract to reflect changes in product
@@ -20,129 +25,109 @@ description: Version 0.3
 
 ## Abstract
 
-Zesty Market empowers entrepreneurs and builders in the metaverse with essential business tools. Our goal is to provide creators with a method of capturing the value that they create without dependence on a centralized platform.
+We are building the data layer for the Metaverse. This is done through an interoperable SDK that works across multiple web and game engines. The SDK is then able to transport data to and from various experiences powering various data-driven applications (discovery, monetization, analytics, and more). Zesty seeks to be a middleware platform across the Metaverse providing bridges across the currently siloed experiences. Governance and value capture of data will be distributed and made decentralized to users of the platform through tokens that are emitted from the use of the platform.
 
-Our first product is an open market for the buying and selling of banner spaces in virtual worlds, whether they are blockchain-based (like Cryptovoxels) or not (standard WebXR/Unity apps).
+## Introduction
 
-We are building an alternative to centralized advertising networks that have come to extract an outsized amount of value from creators. Twitch takes 50% of all revenue from subscriptions, and YouTube takes 30-40% of its creators’ ad revenue.&#x20;
+Since its introduction in Snowcrash, The Metaverse has been a subject of human imagination for multiple decades, with different interpretations of the term circulating the Internet’s psyche for a while now. The transition from physical worlds to digital worlds had already begun, however, this is mostly limited to 2D interfaces with additional interactivity. We see the subsequent advances in Metaverse technology being able to humanize the digital experience further. In our own words, we would describe a metaverse as the next iteration for the Internet to make from a mainly 2D interface to an always-on, real-time 3D environment that allows its users to communicate with each other.
 
-Sometimes, these platforms have been known to outright demonetize the creator, where the person is no longer able to earn an income from the content that they create. It’s clear that these platforms have too much power.
+For the Metaverse to succeed, there needs to be things to do, people to meet, and games to play. We believe in a pluralistic metaverse where there will not be one single winner, but the metaverse will be as diverse as the Internet today, with different communities building for themselves and for each other. As such, there will need to be tools to help support and bridge the diverse ecosystem. Metaverse data, a product of interaction with the virtual spaces, becomes a necessary resource to help mediate this complexity and to build better applications. Zesty’s vision is to provide a unified data protocol which allows these communities to share data and information with each other in a way that preserves privacy and protects each user’s sovereignty.
 
-Using Zesty's open-sourced SDK, creators are able to tokenize spaces in games or livestreams into an NFT. Using our market contract, creators can rent out time slots to a potential advertiser. The revenue from the rental would go directly to the creator on-chain.&#x20;
+The Metaverse will turn the human experience into a computation problem. The need for user sovereignty over Metaverse data will be increasingly important. Given the increased immersiveness of platforms, it becomes possible to track wallet activity, people’s gaze, variable heart rates, brain activity, and more as sensor technology improves. Metaverse data will be very valuable and given its invasiveness, we would want users to have ownership of such data. Zesty seeks to be the ground up initiative that would spearhead user sovereignty in the Metaverse.
 
-Zesty Market generates revenue from fees from market transactions.&#x20;
+## Protocol Overview
 
-Currently, the SDK supports: WebXR platforms, Unity, Cryptovoxels, and we plan to expand to other platforms where there is demand for such services.
+The Zesty Protocol is made of three major parts.
+1. An interoperable SDK that can integrate in a variety of game engines and platforms.
+2. A Data Appchain which stores and propagates the data. This is centralized at the moment to allow for fast iteration and learning.
+3. Data Applications which consume the Metaverse data to power a variety of use cases.
 
-Zesty will exit to the community, which means that one day we will be owned by our most loyal users, which will include creators and advertisers. So instead of having to purchase shares of Google (who owns YouTube) or Amazon (who owns Twitch), people will be able to grow their ownership share in Zesty just by using it. With a financial and attention ecosystem that would be favorable for creators, Zesty Market will pave the way for an open metaverse where everyone has a stake.
+SDK → Data Appchain → Data Applications (consumers)
 
-## Our Commitment to Building the Open Metaverse
+These three parts are intertwined and interdependent. Developers integrate the SDK so that they are able to use data applications that the SDK offers. As of now (Oct 2022) the Data Appchain is a centralized server that mediates the flow of data between the SDK and Data Applications. The centralized version offered the early community to experiment on the specifications and code required to store Metaverse data. The subsequent version of Zesty seeks to migrate this centralized implementation into a decentralized version through a Data Appchain.
 
-The Metaverse was a term that emerged from Neal Stephenson's book Snowcrash. The idea of an immersive virtual society where dreams can become digital reality has captivated people for decades. The idea spurred stories like Ready Player One/Two, and Sword Art Online. However, the setting in all cases have been notably dystopian with some evil corporation being the centre of misery.
+The Zesty Protocol will evolve as more use cases and specifications emerge, as such this Litepaper should be treated as a work in progress.
 
-To avoid a dystopian Metaverse, it is necessary for communities to have power over the Metaverse. Monetization and how money flows plays a significant role in this power dynamics. Web3 and cryptocurrencies had introduced new primitives and ways we can think about monetization. Knowledge is power, cryptography mediates knowledge, therefore cryptography mediates power.
+## SDK
 
-With Web3, tokenization, and NFTs, we now have the ability to declare digital property rights that can be owned by people without the need of corruptible authorities. Truth and ownership is now enshrined through distributed digital ledgers. Historically, wars have been fought over property rights. Now, the revolution on digital property rights will be non-violent. It is a revolution fueled by innovative ideas that will change the way society will work.
+The SDK [https://github.com/zestymarket/sdk](https://github.com/zestymarket/sdk) is a code snippet that integrates across a variety of game engines and Metaverse platforms. Through the code snippet, the Zesty protocol is able to inject additional functionalities into the game engines and Metaverse platforms which helps to power the various Data Applications built. This gives Zesty the ability to build a unified platform across the various Metaverses that would exist despite the incoming fragmentation.
 
-Visions remain visions without the necessary footwork and human coordination. Zesty seeks to help facilitate this and provide the foundations for creators to monetize freely and easily with web3. We expect a feedback loop with respect to content being created and monetization opportunities being present in the Metaverse. With more opportunities for wealth, more people will create content in the Metaverse, resulting in more emergent opportunities. Rogue players will want to eat a large chunk of this pie at the expense of others. Centralized app stores will tend to exhibit rent-seeking behaviors when they reach some critical mass. They may appear open at first, but users and developers will not be able to avoid a bait-and-switch once they are beholden to the system.&#x20;
+![Example of Portal in Webaverse](../.gitbook/assets/portal.jpeg)
 
-The need for decentralized alternatives has never been more important. This calls for open monetization mechanisms, open data platforms, and open tooling that is accessible to the community. All these need to be designed in a way to avoid rent-seeking behaviors and a bait-and-switch scenario should the protocol mature. Zesty seeks to steward new ways of rethinking valuable web2 business models in a web3 paradigm where users are not the product but are important stakeholders.
+The current manifestation of the SDK is in the form of portals around various virtual worlds. These portals are able to transport people across other games and experiences. While portals are its immediate manifestation, it is possible for the SDK to take on multiple forms in virtual spaces, like meshes, textures, and other forms of interactions. The portals created then offer the ability for virtual world creators to monetize their creations through non-disruptive in-game advertising. Further token incentives to bootstrap SDK adoption is made possible through the various Data Applications and Data Appchain.
 
-## Tokenizing Attention and Building Bridges
+The SDK then logs anonymized GDPR compliant data regarding usage around its vicinity subject to a user’s approval. The node where the data would be logged can be selected by a user or allocated to an endpoint provided by the various Data Appchain nodes. This data then powers Data Applications: identity, analytics, discovery, and more should the community spearhead more initiatives.
 
-Attention is a vital resource in the internet. Attention is finite, there is a finite number of people and a finite amount of time that people can pay attention to something at once. Systems that are able to direct attentions act like important trade routes on the internet. Corporations who manage search engines, social media platforms, large e-commerce marketplaces, effectively own these trade routes. This makes such corporations really powerful as access to markets will be decided by such corporations. To sell anything on the internet, merchants will need to acquire attention which will be largely dominated by such corporations.
 
-At Zesty we acknowledge that there is an emerging creator class on the internet (influencers, game developers). They are able to generate substantial attention on their own. Right now this emerging creator class has no real means of monetizing such attention without a centralized corporation like Youtube, Twitch, Google AdMob etc, who would have significant influence over how creators should operate. This undermines creativity and the freedom of expression.&#x20;
+## Data Appchain
 
-Bridging this merchant class and creator class in a decentralized way will be an important milestone in web3. Through decentralization, creators and merchants will be able to operate more autonomously. By tokenizing assets as NFTs and renting time slots out for advertising income, creators will be able to create new financial vehicles for themselves that would be valuable. Such NFTs are able to capture cash flow and will be able to act as financial assets. This makes it possible for creators to underwrite of loans and insurances which would not have been accessible in traditional finance. With further composability between NFTs and DeFi primitives, creators are also able to access new financial opportunities that would not have been possible.
+The current specifications for the Data Appchain is being implemented through a centralized server to better understand the specifications before implementing it as an Appchain. We acknowledge that building out the Appchain for this is a significant undertaking and will want to validate use cases more before committing to more specifications. The specification written here is a document in progress.
 
-Advertising in the Metaverse will resemble more like portals that are tucked away in game worlds. It will be a primary way of discovering new worlds and games in the Metaverse. The natural way of discovering things in a spatial way is walking through doors or portals. Most games are incentivized towards lock-in and selfish value capture. Incentivizes will be required to build an open Metaverse. Through the adoption of the Zesty SDK in various games and experiences, we hope to build bridges between games. We hope to create a seamless way of discovering new experiences that are favorable to games and make it profitable for experiences to share users. The side-effect of adopting the Zesty SDK is that there would now be a common code standard adopted throughout games making the sharing of game assets throughout disparate game experiences a possibility.&#x20;
+The current Zesty protocol (Oct 2022) is looking to plan for the transition of the data into the Appchain built using the Cosmos SDK and Tendermint consensus.
 
-At Zesty, we envision a future where it becomes possible to put businesses on-chain. It's an inevitable consequence of digitalizing businesses. The cashflow NFTs we pioneer at Zesty is one such construct that would aid in this transition. We foresee a future where it might be possible to sell an online business through a transaction on a blockchain, by transferring a revenue-accruing NFT and its related ENS domains. With DeFi opportunities, digital businesses will be able to tap into new models of capital and financing, increasing capital efficiency like never before. With lesser border restrictions on capital flow, we envision new business opportunities that should arise from web3 primitives. Our mission at Zesty is to research and ideate on new web3 primitives that should unlock new opportunities for people.
+The data around the Zesty protocol is centered around event logs in the form of a JSON object.
 
-## System Design
+```json
+{
+  "id": "<string consisting of a sha256 hash of the other JSON fields>",
+  "location": "<string denoting the location of where the log was collected>",
+  "event_type": "<string denoting the kind of event>",
+  "timestamp": "<unsigned integer>",
+  "context": "<an object consisting of additional information about the event>"
+}
+```
 
-### Zesty Market Protocol
+The JSON object works with No SQL databases and allows for the sharding and distribution of data across various Data Appchain nodes. Large scale queries can be facilitated through the use of libraries like [Apache Drill](https://drill.apache.org/).
 
-Zesty's flagship product is a decentralized p2p marketplace for advertising spaces. We outline the design of this decentralized advertising system.
+The hashed id then allows for the various nodes to propagate data to other Data Appchain nodes as they should be unique. The various Data Appchain nodes will have to pay other Data Appchain nodes for the replication of unique data points. This prevents freeloader nodes from data mining from other Data Appchain nodes without contributing storage and compute power to the network to acquire Metaverse data.
 
-In online advertising, there are three key stakeholders: Advertisers, Publishers/Creators, and Consumers. Advertisers buy advertising slots from publishers to leverage their reach in order to get information out to consumers. This structure is the basis of the attention economy that the internet is built upon. In the Web 2.0 model, the relationship between the key stakeholders is mediated by a centralized third party who mediates the flow of money as well as the flow of attention. Zesty Market proposes a decentralized structure for how this could be implemented.
+Note that this No SQL data stored by the various nodes in the Appchain is separate from the consensus and blockspace handling tokens and other on-chain data. The Metaverse data and on-chain data will exist as separate modules. Metaverse data unlike on-chain data does not have the same adversarial threat vectors as real-time consensus is not required. Transaction and token accounting is not handled in the Metaverse data module. Quality of Metaverse data can be assessed through [Anomaly Detection techniques](https://cs.brown.edu/courses/csci2270/archives/2017/papers/anomoly-survey.pdf).
 
-The sale and fulfillment of the advertising slot are done in two parts:
+Users can run their own Data Appchain node to log their own usage information by specifying the rpc endpoint of a specific node, or rely on other Data Appchain nodes on the network. To run a Data Appchain node, users are required to stake a minimum amount of tokens to secure the node, the tokens staked will receive staking rewards and additional transaction fees should data be used. Other users can nominate trusted Data Appchain nodes to receive a share of staking rewards and fees to help secure the nodes. Byzantine nodes and unavailable nodes will have their stake slashed over time.
 
-1. A Dutch Auction for price discovery of the advertising slot
-2. A Hash Timelock Contract augmented with Publicly Verifiable Secret Sharing (PVSS) for decentralized validation of the advertising slot.&#x20;
+While the initial Appchain use case will revolve around Metaverse data around Zesty, we envision future use cases with regards to its usage through other DeFi and cross chain applications in future.
 
-By treating the serving of media on a digital space as a delivery vs payment (DvP) problem, the system is able to facilitate value transfer in a decentralized way. Profits from the auction are redistributed to validators and the DAO (for future development of the protocol).&#x20;
+## Data Applications
 
-#### Dutch Auction of Time Slots
+### Identity
 
-Zesty Market uses a Dutch Auction for price discovery of advertising time slot. Publishers/Creators on Zesty Market would need to first create advertising slots by minting non-fungible tokens (NFT) that would represent some kind of digital space.&#x20;
+Users who encounter the Zesty SDK and had agreed to have data be logged would leave a trail of logs in the various Data Appchain nodes. A user id will be assigned to a user which can be stored in local storage and can be used to claim token rewards from the Data Appchain by creating a wallet on the Appchain. A merkle tree of logged data will also be stored locally, this merkle proof and user id can then be fed to the Appchain to claim token rewards. A user can return the token rewards to the network and submit a delete request to the Appchain for the logged data to be removed.
 
-Once the NFT is minted, the publisher would be able to deposit the NFT into the Zesty Market contract to rent out time slots. By depositing the NFT, the Publisher is not able to modify the metadata associated with the NFT during the sale and service of the advertising time slot. The publisher would be able to define time slots and sell those time slots on the marketplace.&#x20;
+Should users be comfortable with the data that has been logged, such identity data can be used by other games and Metaverse experiences for the purpose of user segmentation and understanding user behaviors. Creators of games and experiences, using the Identity application of the Data Appchain, can then figure out campaigns to attract power users to their experiences and to create more engaging experiences.
 
-The primary sale model is a Dutch auction.  The value of the time slot is represented by a linearly decreasing function as follows:
+### Analytics
 
-$$V(T_{i}) = V(T_{0}) - (T_{i} - T_{0}) \times \frac{V(T_{0})}{T_{n} - T_{0}}$$
+The Metaverse log data provides the ability for creators to understand the pathways of engagement in their games and experiences. This allows creators to figure out whether users are dropping off or are engaged with the games. Through the shared data layer, creators can also understand how other games and experiences perform relatively to theirs.
 
-**Definitions**
+Power users of the Data Appchain will be able to run nodes themselves to understand users better, or rely on other Data Appchain nodes for this service. It is possible for other client applications to be able to collate the data from Data Appchain nodes on users behalf and create other data applications for the analytics. To help support development for creators, Data Appchain nodes can provide freely or cheaply up till a certain amount of calls to the network after which some kind of token payment will be required.
 
-$$V(T_i)$$refers to the current time slot price
+### Search and Discovery
 
-$$V(T_{0})$$refers to the starting price of the time slot
+The Metaverse log data also provides the ability to create data applications to enable search and discovery of games and experiences. Indexing the spatial web and games has been a challenge since they do not allow for search spiders due to most of the content not being in html tags.
 
-$$T_i$$refers to the current time in Unix time
+The log data allows for the use of clustering techniques to find a taxonomy to the various spaces to connect users based on their identity profiles to other experiences and games they may like. Data applications can use the data to create curated experiences for their users.
 
-$$T_0$$refers to the starting time of the Dutch auction in Unix time
+The manifestation of the SDK as portals across various games and experiences allow users to explore and discover new content without disrupting the game play.
 
-$$T_n$$refers to the expiration time of the time slot in Unix time
+### Advertising
 
-When the time slot approaches expiry, the price of the auction approaches zero. The walk away price for the time slot can be defined by the publisher based on the ending time of the auction on the contract. If the end time of the auction is the same as the end time of the time slot, the walk away price would be zero. The expiration time for auction can be set to an appropriate time in order to prevent pointless bidding. The default expiration time is 1 hour before the expiration of the advertising slot. An example of pointless bidding is as follows. For example, bidding for 1 minute prior to the expiration of the advertising. Due to block confirmation times, it can be difficult to fulfill an advertising service within 1 minute. As such, the default expiration time of the Dutch auction is set at 1 hour before the expiration of the NFT time slot.
+Through the Metaverse log data and the portal mechanism, the SDK allows for advertising as a value capture mechanism. Metaverse Advertising will enrich experiences instead of making experiences worse. Other experiences and games are able to leverage on more popular experiences and direct users to their creations through the use of incentivized portals.
 
-The Dutch Auction model is chosen as the primary mode of sale as it has the ability to regulate prices towards some optima. Advertisers would need to find the optimum price to bid for. If the expected cost of customer acquisition on a particular time slot is greater than the revenue generated per conversion, it would not be rational to bid on the time slot. If a publisher falsely advertises an inflated expected impression or click counts for a time slot, future buyers will be less likely to be buyers as purchases would not be rational. This results in a decrease in price for fraudulent time slots. This makes it unprofitable for fraudulent publishers to operate on the network. As the Zesty Market Protocol does not charge advertising fees based on click or impression count and gives buyers the autonomy to bid in a white-box manner, the protocol becomes resilient to click and impression fraud unlike conventional advertising platforms.
+Beyond portals, the SDK with the ability to put assets in game engines and platforms has the ability to introduce new texture to reskin in-game assets, or introduce new objects in spaces for people to interact with. This provides a wider range of interactions that introduces a sense of novelty and exploration in worlds.
 
-We acknowledge that it may be impractical for advertisers to bid manually. With on-chain data and off-chain data provided through Beacons (see "Beacons" section) it is possible for a secondary marketplace for bidding strategies to emerge. Bot makers who are adept at building out strategies can in future sell such bidding strategies to advertisers to help optimize advertising spend and cost of customer acquisition.
+The log data then allows for the appropriate pricing of advertising slots given the amount of impressions and clicks that an experience should receive. The various advertising settlement smart contracts will need to query the Data Appchain for the log information to price the slots and payout accordingly to creators.
 
-When an advertiser succesfully bids for the time slot, the Dutch auction concludes and the system proceeds to the next phase which is the Hash Timelock phase. The funds that are used for bidding would be locked in the Hash Timelock. No funds will be transferred until the successful conclusion of the Hash Timelock phase.
+The various portals associated with creators are tokenized in the form of NFTs, this allows for the tracking of cash flows associated with those portals. The NFTs with cash flows and advertising settlement smart contracts will be able to enable further financial applications for creators like underwriting loans and insurances.
 
-#### Hash Timelock Contract with Publicly Verifiable Secret Sharing for Advertising Services
+### Other Applications
 
-To mediate the successful completion of advertising service. It is possible to model the system as a delivery vs payment (DvP) problem. DvP is formerly a term used in security settlements to guarantee that the transfer of payment is made only when the transfer of a security is made. In the case of advertising, it is analogous to the payment for advertising slots when the advertising service concludes. We will first discuss the case of securities settlements, this can be implemented using a Hash Timelock Contract.
+The Data Appchain provides a substrate for other possible applications to be built on it, games, experiences, and data powered NFTs. The current Data Applications listed are not complete. Through data ownership and token incentives, Zesty hopes to enable the community to build on top of the data rails built.
 
-#### **Hash Timelocks**
+## Tokenomics
+![Token Distribution](../.gitbook/assets/token_distribution.jpeg)
 
-The Hash Timelock Contract is a vault containing a Hashlock and a Timelock, this ensures that two parties are able transfer funds securely without intermediaries. The normal flow for a Hash Timelock Contract is as follows:
+The SDK, Data Appchain, and Data Applications gives the protocol a number of potential sinks and faucets. The burn associated with sinks and emissions faucets can be adjusted through governance of the platform. The optimal values will likely be dynamic given how the ecosystem evolves. We anticipate that token incentives to bootstrap SDK adoption and Data appchain node at the very beginning will be where most of the emissions will occur. The rate of distribution will be designed to start at a fairly fast rate to bootstrap adoption and then decay
 
-1. Alice locks A-tokens into a vault and sets a timelock and a hashlock. The timelock prevents a party from withdrawing funds prior to some expiration time, and the hashlock is a hash of a secret.
-2. Bob locks B-tokens into a vault and sets a timelock and copies the hashlock of Alice's vault into his vault.
-3. Alice claims B-tokens from Bob's vault by revealing the secret which unlocks the hashlock.
-4. Bob now knows the secret and unlocks funds from Alice's vault. Note that Alice could not withdraw funds yet as the timelock is still present.
-5. If Alice does not claim the funds, the timelock expires for both vaults and the transfer is canceled.
+The initial bootstrapping phase of the Zesty protocol will start on Ethereum. Liquidity will be bootstrapped through a streaming auction which should provide the initial core team with additional funds to operate and provide liquidity for an initial DEX pool for protocol tokens ($ZESTY). The initial funds will then be held in an operational multisig to help fund development of the protocol. Tokens allocated to team, backers, and initial adopters will be held in a vesting contract, locked for at least 1 year and then vested linearly for the next 2 years after the 1 year lock passes. The insider allocation will be kept at less than 1/3 of the network to encourage future network ownership but should be generous enough to reward early participants for work already contributed to the network.
 
-In the case of security settlements or token transfers, the flow mentioned above is sufficient. However, an immediate problem emerges in the case of advertising services where one side possesses an asset to be transferred while the other is providing a service. There is an added complication of guaranteeing that a time-based service should be completed.
-
-In web2, a centralized 3rd party would help mediate disputes. However, using cryptography techniques we are able to disintermediate the centralized 3rd party into a decentralized one using Publicly Verifiable Secret Sharing.
-
-#### **Publicly Verifiable Secret** Sharing
-
-Publicly Verifiable Secret Sharing is a way of distributing secret shares in a way where all parties can verify that the secret shares distributed are valid.
-
-Secret sharing allows for a secret to be split into multiple secret shares, such that when you obtain a sufficient amount of secret shares you are able to find the original secret.
-
-In the Zesty Market protocol, a randomly selected validator from a set of decentralized validators will be assigned as a dealer. This dealer will hash the secret and set it as the hashlock for the hash timelock contract and distribute secret shares to other validators on the network. It will also publish a string proof that the shares are valid. &#x20;
-
-A validator would then check whether an advertisement is served at a random timeslot. Should the asset be served, the secret share will be published by the validator. The checking would be done on the validation client using the SIFT algorithm (Scale-Invariant Feature Transform), which would check for matching features in the shown media asset and media asset denoted on-chain by an advertiser. This validator may be a bot or a human user. In the case of a human user, the validation acts like a play-to-earn scheme, where the user gets paid to visit digital spaces. Validators would be rewarded either way should the advertising media be served or not.
-
-When enough secret shares are known the publisher would be able to reconstruct the secret that would unlock the hashlock and withdraw the locked funds. If the publisher did not serve as expected, the publisher dvertise successfully the publisher will not be able to obtain sufficient shares to obtain the secret to unlock the vault. The advertiser would then be refunded at the end of the timelock.
-
-**Protocol Design**
-
-![Sequence Diagram of the Zesty Market Protocol](../.gitbook/assets/auctionhtlc.png)
-
-### Beacons
-
-An essential part of the advertising and the commerce pipeline is data. There are off-chain data that are very valuable but it would not make sense for the data to be put on-chain. A problem with analytics in the metaverse at the current moment is that is not good universal way of capturing data in a spatial way. This data is necessary to help with the discoverability of places in the Metaverse. There will need to be a "Google Maps" for the Metaverse in order for people to discover things intelligibly as spatial content increases exponentially.&#x20;
-
-In order to build a map of the Metaverse, we will need data. To collect such data we will need to incentivize people to be willing to provide such data. As such one complimentary use case for such data is the Zesty Market Protocol. Collecting impressions and clickthrough rates at the current moment helps to compliment usage of the Zesty Market Protocol. The impression counts and clickthrough rates allow us to construct a heatmap of Metaverse experiences and where people cluster at. As the Beacon technology matures and more data is being collected, it would be possible to engineer additional data products on the Metaverse increasing the kinds of services that could possibly exist.
-
-Data collection is a loaded term and can feel dirty but immense value can be created through the aggregation of data. As part of our commitment to building the open Metaverse, Zesty will seek to make this data layer a digital public good incentivized through tokenomics at Zesty. Beacons are built using Orbit DB and IPFS, as such decentralized ownership of the system is possible. There will be significant engineering effort required to create this system. As of now (11 Dec 2021), Beacons are hosted in a centralized way to simplify engineering efforts. Beacons are a feature that can be enabled on the Zesty SDK to allow for the collection of data. This is entirely opt-in. Data collection at the moment is limited to loads and clickthroughs which are anonymous. We think that data privacy is a human right and will do our best to respect it.
+The ecosystem fund will be managed via a multisig owned by the Zesty team and will be used for initial token incentives prior to the launch of the Data Appchain. The remaining protocol tokens will be locked only to be activated by the launch of the Data Appchain. The activation will happen only after the approval by the operational multisig and a majority token vote approval. The ERC20 and Appchain $ZESTY token will exist alongside one another thereafter.

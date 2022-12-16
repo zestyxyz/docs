@@ -4,7 +4,7 @@ It is possible to automate the management of spaces, this is done by setting a b
 We have built out a bot to help you with this. The bot currently at the supports:
 
 1. Auction creation
-2. Auction approvals and rejections (TBD): As of now creators will need to be responsible for the content that shows on their spaces.
+2. Auction approvals and rejections (TBD): As of now, creators will need to be responsible for the content that shows on their spaces.
 3. Auction expiration and cancelations
 4. Withdrawal of funds
 
@@ -19,9 +19,9 @@ We have built out a bot to help you with this. The bot currently at the supports
 
 ![Automation Guide](../../.gitbook/assets/Automation.png)
 
-4. Once the transaction is confirmed on-chain, the bot will begin to manage your auctions. The onchain calls are triggered once every 4 hours, give it a while to begin running functions onchain.
+4. Once the transaction is confirmed on-chain, the bot will begin to manage your auctions. The onchain calls are triggered once every 4 hours. As such, it will take a while before the on-chain calls happen, do be patient.
 
-5. To be notified on when you need to approve auctions, head over to our [Discord](https://discord.gg/AgmSxXNdnQ) and go to the `#bot-commands` channel. Type `>notify` and you will be guided through a set of prompts on your Discord Direct Messages. After which, `Bob the Bot` in the Zesty Discord will inform you when you have spaces to approve or reject.
+5. To be notified on when you need to approve or reject auctions, head over to our [Discord](https://discord.gg/AgmSxXNdnQ) and go to the `#bot-commands` channel. Type `>notify` and you will be guided through a set of prompts on your Discord Direct Messages. After which, `Bob the Bot` in the Zesty Discord will inform you when you have auctions to approve or reject.
 
 ![Get Notified](../../.gitbook/assets/Automation_notify.png)
 

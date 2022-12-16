@@ -38,6 +38,7 @@ module.exports = {
         },
         "for-creators/create-auction",
         "for-creators/get-paid",
+        "for-creators/automation",
       ],
     },
     {

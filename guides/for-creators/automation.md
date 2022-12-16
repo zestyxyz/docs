@@ -1,5 +1,5 @@
 # Automation
-It is possible to automate the management of spaces, this is done by setting a bot as an operator on the Zesty Market contract to help call smart contract funcionts on your behalf.
+It is possible to automate the management of spaces, this is done by setting a bot as an operator on the Zesty Market contract to help call smart contract functions on your behalf.
 
 We have built out a bot to help you with this. The bot currently at the supports:
 
@@ -21,7 +21,7 @@ We have built out a bot to help you with this. The bot currently at the supports
 
 4. Once the transaction is confirmed on-chain, the bot will begin to manage your auctions. The onchain calls are triggered once every 4 hours, give it a while to begin running functions onchain.
 
-5. To be notified when you need to approve auctions, head over to our [Discord](https://discord.gg/AgmSxXNdnQ) and go to the `#bot-commands` channel. Type `>notify` and you will be guided through a set of prompts on your Discord Direct Messages. After which, `Bob the Bot` in the Zesty Discord will inform you when you have spaces to approve or reject.
+5. To be notified on when you need to approve auctions, head over to our [Discord](https://discord.gg/AgmSxXNdnQ) and go to the `#bot-commands` channel. Type `>notify` and you will be guided through a set of prompts on your Discord Direct Messages. After which, `Bob the Bot` in the Zesty Discord will inform you when you have spaces to approve or reject.
 
 ![Get Notified](../../.gitbook/assets/Automation_notify.png)
 

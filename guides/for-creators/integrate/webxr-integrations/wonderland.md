@@ -1,6 +1,6 @@
 # Wonderland Engine
 
-repository: [https://github.com/zestymarket/sdk/tree/main/wonderland](https://github.com/zestymarket/sdk/tree/main/wonderland)
+repository: [https://github.com/zestyxyz/sdk/tree/main/wonderland](https://github.com/zestyxyz/sdk/tree/main/wonderland)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
@@ -18,7 +18,7 @@ If you are using NPM in your Wonderland project, install it like so:
 npm install '@zestymarket/wonderland-sdk'
 ```
 
-**Warning**: Make sure you are using the same three.js version as the Zesty package. You can check here: [https://github.com/zestymarket/sdk/blob/main/wonderland/package.json](https://github.com/zestymarket/sdk/blob/main/wonderland/package.json)
+**Warning**: Make sure you are using the same three.js version as the Zesty package. You can check here: [https://github.com/zestyxyz/sdk/blob/main/wonderland/package.json](https://github.com/zestyxyz/sdk/blob/main/wonderland/package.json)
 
 #### Step 2
 

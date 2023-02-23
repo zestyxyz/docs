@@ -50,7 +50,7 @@ The Zesty Protocol will evolve as more use cases and specifications emerge, as s
 
 ## SDK
 
-The SDK [https://github.com/zestymarket/sdk](https://github.com/zestymarket/sdk) is a code snippet that integrates across a variety of game engines and Metaverse platforms. Through the code snippet, the Zesty protocol is able to inject additional functionalities into the game engines and Metaverse platforms which helps to power the various Data Applications built. This gives Zesty the ability to build a unified platform across the various Metaverses that would exist despite the incoming fragmentation.
+The SDK [https://github.com/zestyxyz/sdk](https://github.com/zestyxyz/sdk) is a code snippet that integrates across a variety of game engines and Metaverse platforms. Through the code snippet, the Zesty protocol is able to inject additional functionalities into the game engines and Metaverse platforms which helps to power the various Data Applications built. This gives Zesty the ability to build a unified platform across the various Metaverses that would exist despite the incoming fragmentation.
 
 ![Example of Portal in Webaverse](../.gitbook/assets/portal.jpeg)
 

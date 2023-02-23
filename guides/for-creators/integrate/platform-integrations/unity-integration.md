@@ -1,6 +1,6 @@
 # Unity
 
-Repository: [https://github.com/zestymarket/sdk/tree/main/unity](https://github.com/zestymarket/sdk/tree/main/unity)
+Repository: [https://github.com/zestyxyz/sdk/tree/main/unity](https://github.com/zestyxyz/sdk/tree/main/unity)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.

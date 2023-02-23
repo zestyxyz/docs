@@ -1,6 +1,6 @@
 # three.js
 
-Repository: [https://github.com/zestymarket/sdk/tree/main/threejs](https://github.com/zestymarket/sdk/tree/main/threejs)
+Repository: [https://github.com/zestyxyz/sdk/tree/main/threejs](https://github.com/zestyxyz/sdk/tree/main/threejs)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
@@ -20,7 +20,7 @@ Once installed, import the ZestyBanner component:
 import * as Zesty from '@zestymarket/threejs-sdk';
 ```
 
-**Warning**: Make sure you are using the same three.js version as the Zesty package. You can check here: https://github.com/zestymarket/sdk/blob/main/threejs/package.json
+**Warning**: Make sure you are using the same three.js version as the Zesty package. You can check here: https://github.com/zestyxyz/sdk/blob/main/threejs/package.json
 
 If you are using an unsupported version, you can import a specific version of three.js from CDNs like Skypack: [https://cdn.skypack.dev/three@version](https://cdn.skypack.dev/three@0.130.1)
 

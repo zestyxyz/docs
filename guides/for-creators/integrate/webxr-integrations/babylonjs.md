@@ -1,6 +1,6 @@
 # babylon.js
 
-Repository: [https://github.com/zestymarket/sdk/tree/main/babylonjs](https://github.com/zestymarket/sdk/tree/main/babylonjs)
+Repository: [https://github.com/zestyxyz/sdk/tree/main/babylonjs](https://github.com/zestyxyz/sdk/tree/main/babylonjs)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
@@ -20,7 +20,7 @@ Once installed, import the ZestyBanner component:
 import * as Zesty from '@zestymarket/babylonjs-sdk';
 ```
 
-**Warning**: Make sure you are using the same babylon.js version as the Zesty package. You can check here: https://github.com/zestymarket/sdk/blob/main/babylonjs/package.json
+**Warning**: Make sure you are using the same babylon.js version as the Zesty package. You can check here: https://github.com/zestyxyz/sdk/blob/main/babylonjs/package.json
 
 If you are using an unsupported version, you can import a specific version of babylon.js from CDNs like Skypack: [https://cdn.skypack.dev/babylonjs@version](https://cdn.skypack.dev/babylonjs@4.2.1)
 

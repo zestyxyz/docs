@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: 'Github',
-                href: 'https://github.com/zestymarket'
+                href: 'https://github.com/zestyxyz'
               }
             ],
           },

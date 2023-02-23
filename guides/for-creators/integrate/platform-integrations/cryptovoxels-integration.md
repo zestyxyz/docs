@@ -1,6 +1,6 @@
 # Cryptovoxels
 
-Repository: [https://github.com/zestymarket/sdk/tree/main/cryptovoxels](https://github.com/zestymarket/sdk/tree/main/cryptovoxels)
+Repository: [https://github.com/zestyxyz/sdk/tree/main/cryptovoxels](https://github.com/zestyxyz/sdk/tree/main/cryptovoxels)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.

@@ -1,6 +1,6 @@
 # React Three Fiber
 
-Repository: [https://github.com/zestymarket/sdk/tree/main/r3f](https://github.com/zestymarket/sdk/tree/main/r3f)
+Repository: [https://github.com/zestyxyz/sdk/tree/main/r3f](https://github.com/zestyxyz/sdk/tree/main/r3f)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.

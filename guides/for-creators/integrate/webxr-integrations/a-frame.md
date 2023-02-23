@@ -1,6 +1,6 @@
 # A-Frame
 
-Repository: [https://github.com/zestymarket/sdk/tree/main/aframe](https://github.com/zestymarket/sdk/tree/main/aframe)
+Repository: [https://github.com/zestyxyz/sdk/tree/main/aframe](https://github.com/zestyxyz/sdk/tree/main/aframe)
 
 :::note
 You will first need to create a Space NFT in order to get started. Check out [For Creators](../../create-space.md) for more instructions.
